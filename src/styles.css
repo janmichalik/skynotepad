@@ -1,0 +1,157 @@
+/* Application-wide Styles */
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #0062FF;
+  font-size: 14px;
+  padding-left: 4px;
+  border-bottom: solid 1px #444b5a;
+}
+
+body {
+  background-color: #2C3645;
+  margin: 0;
+}
+
+input {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px;
+  margin: 2px;
+  font-size: 16px;
+  border-style: none;
+  width: 100%;
+  flex: 2;
+}
+
+button, submit {
+  border-style: none;
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: #0062FF;
+}
+
+body, input[text], button {
+  font-size: 16px;
+  color: white;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-left: -32px;
+  list-style-type: none;
+}
+
+li {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.version-info {
+  font-size: 8pt;
+  float: right;
+}
+
+html, body {
+  height: 100%;
+}
+
+.mat-tab-body-wrapper {
+  flex-grow: 1;
+}
+
+.mat-tab-body {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.mat-tab-body-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mat-tab-label-content {
+  font-size: 16px;
+}
+
+.mat-tab-group {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mat-tab-label, .mat-tab-label-active {
+  color: white;
+  margin: 3px!important;
+  min-width: 0!important;
+  padding: 3px!important;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #0062FF;
+}
+
+.mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+  background-color: #0062FF;
+}
+
+.mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+  background-color: white;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #0062FF;
+}
+
+button.mat-button {
+  min-width: 24px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.mat-select-placeholder {
+ color: rgba(255, 255, 255, 255);
+}
+
+.mat-select-arrow {
+  color: rgba(255, 255, 255, 255);
+}
+
+/* everywhere else */
+
+.mat-tab-header-pagination-chevron {
+  border-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}

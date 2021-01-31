@@ -1,0 +1,3620 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>skynotepad documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">skynotepad documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>AppComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/app.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-root</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./app.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./app.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#config">config</a>
+                            </li>
+                            <li>
+                                <a href="#contents">contents</a>
+                            </li>
+                            <li>
+                                <a href="#dbx">dbx</a>
+                            </li>
+                            <li>
+                                <a href="#editor">editor</a>
+                            </li>
+                            <li>
+                                <a href="#filePath">filePath</a>
+                            </li>
+                            <li>
+                                <a href="#filesList">filesList</a>
+                            </li>
+                            <li>
+                                <a href="#folderPath">folderPath</a>
+                            </li>
+                            <li>
+                                <a href="#foldersList">foldersList</a>
+                            </li>
+                            <li>
+                                <a href="#fonts">fonts</a>
+                            </li>
+                            <li>
+                                <a href="#fontSizes">fontSizes</a>
+                            </li>
+                            <li>
+                                <a href="#languages">languages</a>
+                            </li>
+                            <li>
+                                <a href="#selected">selected</a>
+                            </li>
+                            <li>
+                                <a href="#tabPath">tabPath</a>
+                            </li>
+                            <li>
+                                <a href="#tabs">tabs</a>
+                            </li>
+                            <li>
+                                <a href="#themes">themes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#token">token</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#auth">auth</a>
+                            </li>
+                            <li>
+                                <a href="#createFile">createFile</a>
+                            </li>
+                            <li>
+                                <a href="#createFolder">createFolder</a>
+                            </li>
+                            <li>
+                                <a href="#deleteFile">deleteFile</a>
+                            </li>
+                            <li>
+                                <a href="#downloadFile">downloadFile</a>
+                            </li>
+                            <li>
+                                <a href="#downloadFolder">downloadFolder</a>
+                            </li>
+                            <li>
+                                <a href="#downloadList">downloadList</a>
+                            </li>
+                            <li>
+                                <a href="#getHashValue">getHashValue</a>
+                            </li>
+                            <li>
+                                <a href="#getThumbnail">getThumbnail</a>
+                            </li>
+                            <li>
+                                <a href="#goUpList">goUpList</a>
+                            </li>
+                            <li>
+                                <a href="#loadConfig">loadConfig</a>
+                            </li>
+                            <li>
+                                <a href="#logout">logout</a>
+                            </li>
+                            <li>
+                                <a href="#moveExplorer">moveExplorer</a>
+                            </li>
+                            <li>
+                                <a href="#moveFile">moveFile</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openFolder">openFolder</a>
+                            </li>
+                            <li>
+                                <a href="#removeTab">removeTab</a>
+                            </li>
+                            <li>
+                                <a href="#resetConfig">resetConfig</a>
+                            </li>
+                            <li>
+                                <a href="#saveConfig">saveConfig</a>
+                            </li>
+                            <li>
+                                <a href="#saveFile">saveFile</a>
+                            </li>
+                            <li>
+                                <a href="#setExplorer">setExplorer</a>
+                            </li>
+                            <li>
+                                <a href="#settings">settings</a>
+                            </li>
+                            <li>
+                                <a href="#showProperties">showProperties</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#tabChanged">tabChanged</a>
+                            </li>
+                            <li>
+                                <a href="#updateFont">updateFont</a>
+                            </li>
+                            <li>
+                                <a href="#updateFontSize">updateFontSize</a>
+                            </li>
+                            <li>
+                                <a href="#updateTheme">updateTheme</a>
+                            </li>
+                            <li>
+                                <a href="#updateWrapMode">updateWrapMode</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="auth"></a>
+                        <span class="name">
+                            <b>
+                            auth
+                            </b>
+                            <a href="#auth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>auth()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="420" class="link-to-prism">src/app/app.component.ts:420</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Przenosi do adresu autoryzacyjnego. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="createFile"></a>
+                        <span class="name">
+                            <b>
+                            createFile
+                            </b>
+                            <a href="#createFile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>createFile()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="447" class="link-to-prism">src/app/app.component.ts:447</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Tworzy plik tekstowy. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="createFolder"></a>
+                        <span class="name">
+                            <b>
+                            createFolder
+                            </b>
+                            <a href="#createFolder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>createFolder()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="426" class="link-to-prism">src/app/app.component.ts:426</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Tworzy folder. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="deleteFile"></a>
+                        <span class="name">
+                            <b>
+                            deleteFile
+                            </b>
+                            <a href="#deleteFile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>deleteFile(path)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="473" class="link-to-prism">src/app/app.component.ts:473</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Usuwa plik ze ścieżki wskazanej w argumencie. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="downloadFile"></a>
+                        <span class="name">
+                            <b>
+                            downloadFile
+                            </b>
+                            <a href="#downloadFile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>downloadFile(path, saveOnDisc)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="490" class="link-to-prism">src/app/app.component.ts:490</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pobiera plik wskazany w argumencie i otwiera w nowej karcie, lub zapisuje na dysku twardym. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>saveOnDisc</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="downloadFolder"></a>
+                        <span class="name">
+                            <b>
+                            downloadFolder
+                            </b>
+                            <a href="#downloadFolder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>downloadFolder(path)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="518" class="link-to-prism">src/app/app.component.ts:518</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pobiera folder wskazany w argumencie i zapisuje na dysku twardym w postaci pliku ZIP. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="downloadList"></a>
+                        <span class="name">
+                            <b>
+                            downloadList
+                            </b>
+                            <a href="#downloadList"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>downloadList(alert)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="538" class="link-to-prism">src/app/app.component.ts:538</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pobiera listę plików i wyświetla ją w panelu bocznym. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>alert</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getHashValue"></a>
+                        <span class="name">
+                            <b>
+                            getHashValue
+                            </b>
+                            <a href="#getHashValue"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>getHashValue(key)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="588" class="link-to-prism">src/app/app.component.ts:588</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Wyciąga z adresu token za znakiem hash. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>key</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getThumbnail"></a>
+                        <span class="name">
+                            <b>
+                            getThumbnail
+                            </b>
+                            <a href="#getThumbnail"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>getThumbnail(path)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="564" class="link-to-prism">src/app/app.component.ts:564</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pobiera miniaturę obrazu wskazanego w argumencie. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goUpList"></a>
+                        <span class="name">
+                            <b>
+                            goUpList
+                            </b>
+                            <a href="#goUpList"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>goUpList()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="594" class="link-to-prism">src/app/app.component.ts:594</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Przenosi do folderu wstecz w eksploratorze plików. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="loadConfig"></a>
+                        <span class="name">
+                            <b>
+                            loadConfig
+                            </b>
+                            <a href="#loadConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>loadConfig()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="675" class="link-to-prism">src/app/app.component.ts:675</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Wczytuje konfigurację. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="logout"></a>
+                        <span class="name">
+                            <b>
+                            logout
+                            </b>
+                            <a href="#logout"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>logout()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="719" class="link-to-prism">src/app/app.component.ts:719</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Wylogowuje konto Dropbox i unieważnia token. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="moveExplorer"></a>
+                        <span class="name">
+                            <b>
+                            moveExplorer
+                            </b>
+                            <a href="#moveExplorer"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>moveExplorer()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="356" class="link-to-prism">src/app/app.component.ts:356</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Przenosi panel boczny w prawą lub lewą stronę. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="moveFile"></a>
+                        <span class="name">
+                            <b>
+                            moveFile
+                            </b>
+                            <a href="#moveFile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>moveFile(path)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="601" class="link-to-prism">src/app/app.component.ts:601</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Przenosi lub zmienia nazwę pliku wskazanego w argumencie. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnInit"></a>
+                        <span class="name">
+                            <b>
+                            ngOnInit
+                            </b>
+                            <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="365" class="link-to-prism">src/app/app.component.ts:365</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Uruchamia się po tym jak Angular zainicjuje wszystkie związane z danymi właściwości dyrektywy. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="openFolder"></a>
+                        <span class="name">
+                            <b>
+                            openFolder
+                            </b>
+                            <a href="#openFolder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>openFolder(path)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="624" class="link-to-prism">src/app/app.component.ts:624</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Otwiera folder wskazany w argumencie, w eksploratorze plików. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>path</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="removeTab"></a>
+                        <span class="name">
+                            <b>
+                            removeTab
+                            </b>
+                            <a href="#removeTab"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>removeTab(index: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="334" class="link-to-prism">src/app/app.component.ts:334</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Aktualizuje font. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>index</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="resetConfig"></a>
+                        <span class="name">
+                            <b>
+                            resetConfig
+                            </b>
+                            <a href="#resetConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>resetConfig()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="700" class="link-to-prism">src/app/app.component.ts:700</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Przywracja domyślne ustawienia konfiguracji. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="saveConfig"></a>
+                        <span class="name">
+                            <b>
+                            saveConfig
+                            </b>
+                            <a href="#saveConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>saveConfig()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="658" class="link-to-prism">src/app/app.component.ts:658</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Zapisuje konfigurację. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="saveFile"></a>
+                        <span class="name">
+                            <b>
+                            saveFile
+                            </b>
+                            <a href="#saveFile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>saveFile()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="639" class="link-to-prism">src/app/app.component.ts:639</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Zapisuje aktualnie edytowany plik. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setExplorer"></a>
+                        <span class="name">
+                            <b>
+                            setExplorer
+                            </b>
+                            <a href="#setExplorer"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setExplorer()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="347" class="link-to-prism">src/app/app.component.ts:347</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pokazuje lub chowa panel boczny. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="settings"></a>
+                        <span class="name">
+                            <b>
+                            settings
+                            </b>
+                            <a href="#settings"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>settings()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="630" class="link-to-prism">src/app/app.component.ts:630</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Otwiera panel ustawień. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showProperties"></a>
+                        <span class="name">
+                            <b>
+                            showProperties
+                            </b>
+                            <a href="#showProperties"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>showProperties(response)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="262" class="link-to-prism">src/app/app.component.ts:262</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Pokazuje właściwości otwartego pliku. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>response</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tabChanged"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            tabChanged
+                            </b>
+                            <a href="#tabChanged"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon icon ion-ios-reset"></span>
+                        <code>tabChanged(tabChangeEvent: MatTabChangeEvent)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="273" class="link-to-prism">src/app/app.component.ts:273</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Wykonana zostaje po otwarciu karty edytora, pobiera zasoby z konta Dropbox. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>tabChangeEvent</td>
+                                                        <td>
+                                                                    <code>MatTabChangeEvent</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateFont"></a>
+                        <span class="name">
+                            <b>
+                            updateFont
+                            </b>
+                            <a href="#updateFont"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>updateFont(font)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="312" class="link-to-prism">src/app/app.component.ts:312</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Aktualizuje font. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>font</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateFontSize"></a>
+                        <span class="name">
+                            <b>
+                            updateFontSize
+                            </b>
+                            <a href="#updateFontSize"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>updateFontSize(fontSize)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="318" class="link-to-prism">src/app/app.component.ts:318</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Aktualizuje font. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fontSize</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateTheme"></a>
+                        <span class="name">
+                            <b>
+                            updateTheme
+                            </b>
+                            <a href="#updateTheme"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>updateTheme(theme)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="306" class="link-to-prism">src/app/app.component.ts:306</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Aktualizuje temat kolorstyczny. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>theme</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateWrapMode"></a>
+                        <span class="name">
+                            <b>
+                            updateWrapMode
+                            </b>
+                            <a href="#updateWrapMode"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>updateWrapMode(wrapMode)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="324" class="link-to-prism">src/app/app.component.ts:324</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Aktualizuje zawijanie wierszy. </p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>wrapMode</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="config"></a>
+                        <span class="name">
+                            <b>
+                            config
+                            </b>
+                            <a href="#config"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>config:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    wrapMode: true,
+    lastFiles: &#x27;&#x27;,
+    theme: this.themes[21],
+    font: &#x27;Consolas&#x27;,
+    fontSize: 20,
+    autoSave: true,
+    openFiles: [],
+    moveExplorer: false,
+    configAutoSave: true
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="239" class="link-to-prism">src/app/app.component.ts:239</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Konfiguracja edytora. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="contents"></a>
+                        <span class="name">
+                            <b>
+                            contents
+                            </b>
+                            <a href="#contents"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>contents:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="227" class="link-to-prism">src/app/app.component.ts:227</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Zawartość aktualnie otwartej karty. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dbx"></a>
+                        <span class="name">
+                            <b>
+                            dbx
+                            </b>
+                            <a href="#dbx"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>dbx:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Dropbox({ accessToken: document.cookie })</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="253" class="link-to-prism">src/app/app.component.ts:253</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Instancja klienta Dropbox. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editor"></a>
+                        <span class="name">
+                            <b>
+                            editor
+                            </b>
+                            <a href="#editor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>editor:     <code>Editor</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Editor</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="255" class="link-to-prism">src/app/app.component.ts:255</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Instancja edytora Ace. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="filePath"></a>
+                        <span class="name">
+                            <b>
+                            filePath
+                            </b>
+                            <a href="#filePath"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>filePath:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="229" class="link-to-prism">src/app/app.component.ts:229</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Ścieżka aktualnie otwartego pliku. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="filesList"></a>
+                        <span class="name">
+                            <b>
+                            filesList
+                            </b>
+                            <a href="#filesList"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>filesList:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="231" class="link-to-prism">src/app/app.component.ts:231</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Pliki w eksploratorze plików. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="folderPath"></a>
+                        <span class="name">
+                            <b>
+                            folderPath
+                            </b>
+                            <a href="#folderPath"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>folderPath:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="235" class="link-to-prism">src/app/app.component.ts:235</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Ścieżka otwartego folderu w eksploratorze plików. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="foldersList"></a>
+                        <span class="name">
+                            <b>
+                            foldersList
+                            </b>
+                            <a href="#foldersList"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>foldersList:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="233" class="link-to-prism">src/app/app.component.ts:233</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Foldery w eksploratorze plików. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fonts"></a>
+                        <span class="name">
+                            <b>
+                            fonts
+                            </b>
+                            <a href="#fonts"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>fonts:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;Consolas&#x27;, &#x27;Courier New&#x27;, &#x27;Arial&#x27;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="225" class="link-to-prism">src/app/app.component.ts:225</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Fonty edytora. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fontSizes"></a>
+                        <span class="name">
+                            <b>
+                            fontSizes
+                            </b>
+                            <a href="#fontSizes"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>fontSizes:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[12, 14, 16, 18, 20, 22, 24, 26, 30]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="223" class="link-to-prism">src/app/app.component.ts:223</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Rozmiary czcionki edytora. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="languages"></a>
+                        <span class="name">
+                            <b>
+                            languages
+                            </b>
+                            <a href="#languages"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>languages:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{ &#x27;abap&#x27;: &#x27;abap&#x27;, &#x27;abc&#x27;: &#x27;abc&#x27;, &#x27;as&#x27;: &#x27;actionscript&#x27;, &#x27;ada&#x27;: &#x27;ada&#x27;, &#x27;apache_conf&#x27;: &#x27;apache_conf&#x27;, &#x27;applescript&#x27;: &#x27;applescript&#x27;, &#x27;adoc&#x27;: &#x27;asciidoc&#x27;, &#x27;asl&#x27;: &#x27;asl&#x27;, &#x27;asm&#x27;: &#x27;assembly_x86&#x27;, &#x27;ahk&#x27;: &#x27;autohotkey&#x27;, &#x27;bat&#x27;: &#x27;batchfile&#x27;, &#x27;bro&#x27;: &#x27;bro&#x27;, &#x27;c9search&#x27;: &#x27;c9search&#x27;, &#x27;cirru&#x27;: &#x27;cirru&#x27;, &#x27;clj&#x27;: &#x27;clojure&#x27;, &#x27;cobol&#x27;: &#x27;cobol&#x27;, &#x27;coffee&#x27;: &#x27;coffee&#x27;, &#x27;cfm&#x27;: &#x27;coldfusion&#x27;, &#x27;cs&#x27;: &#x27;csharp&#x27;, &#x27;csd&#x27;: &#x27;csound_document&#x27;, &#x27;orc&#x27;: &#x27;csound_orchestra&#x27;, &#x27;sco&#x27;: &#x27;csound_score&#x27;, &#x27;csp&#x27;: &#x27;csp&#x27;, &#x27;css&#x27;: &#x27;css&#x27;, &#x27;curly&#x27;: &#x27;curly&#x27;, &#x27;cpp&#x27;: &#x27;c_cpp&#x27;, &#x27;h&#x27;: &#x27;c_cpp&#x27;, &#x27;d&#x27;: &#x27;d&#x27;, &#x27;dart&#x27;: &#x27;dart&#x27;, &#x27;diff&#x27;: &#x27;diff&#x27;, &#x27;django&#x27;: &#x27;django&#x27;, &#x27;dockerfile&#x27;: &#x27;dockerfile&#x27;, &#x27;dot&#x27;: &#x27;dot&#x27;, &#x27;drl&#x27;: &#x27;drools&#x27;, &#x27;edi&#x27;: &#x27;edifact&#x27;, &#x27;e&#x27;: &#x27;eiffel&#x27;, &#x27;ejs&#x27;: &#x27;ejs&#x27;, &#x27;ex&#x27;: &#x27;elixir&#x27;, &#x27;elm&#x27;: &#x27;elm&#x27;, &#x27;erl&#x27;: &#x27;erlang&#x27;, &#x27;forth&#x27;: &#x27;forth&#x27;, &#x27;f&#x27;: &#x27;fortran&#x27;, &#x27;fs&#x27;: &#x27;fsharp&#x27;, &#x27;ftl&#x27;: &#x27;ftl&#x27;, &#x27;gcode&#x27;: &#x27;gcode&#x27;, &#x27;gherkin&#x27;: &#x27;gherkin&#x27;, &#x27;gitignore&#x27;: &#x27;gitignore&#x27;, &#x27;glsl&#x27;: &#x27;glsl&#x27;, &#x27;gobstones&#x27;: &#x27;gobstones&#x27;, &#x27;go&#x27;: &#x27;golang&#x27;, &#x27;graphql&#x27;: &#x27;graphqlschema&#x27;, &#x27;groovy&#x27;: &#x27;groovy&#x27;, &#x27;haml&#x27;: &#x27;haml&#x27;, &#x27;handlebars&#x27;: &#x27;handlebars&#x27;, &#x27;hs&#x27;: &#x27;haskell&#x27;, &#x27;cabal&#x27;: &#x27;haskell_cabal&#x27;, &#x27;hx&#x27;: &#x27;haxe&#x27;, &#x27;hjson&#x27;: &#x27;hjson&#x27;, &#x27;html&#x27;: &#x27;html&#x27;, &#x27;htm&#x27;: &#x27;html&#x27;, &#x27;html_elixir&#x27;: &#x27;html_elixir&#x27;, &#x27;html_ruby&#x27;: &#x27;html_ruby&#x27;, &#x27;ini&#x27;: &#x27;ini&#x27;, &#x27;io&#x27;: &#x27;io&#x27;, &#x27;jack&#x27;: &#x27;jack&#x27;, &#x27;jade&#x27;: &#x27;jade&#x27;, &#x27;java&#x27;: &#x27;java&#x27;, &#x27;js&#x27;: &#x27;javascript&#x27;, &#x27;json&#x27;: &#x27;json&#x27;, &#x27;jsoniq&#x27;: &#x27;jsoniq&#x27;, &#x27;jsp&#x27;: &#x27;jsp&#x27;, &#x27;jssm&#x27;: &#x27;jssm&#x27;, &#x27;jsx&#x27;: &#x27;jsx&#x27;, &#x27;jl&#x27;: &#x27;julia&#x27;, &#x27;kt&#x27;: &#x27;kotlin&#x27;, &#x27;less&#x27;: &#x27;less&#x27;, &#x27;liquid&#x27;: &#x27;liquid&#x27;, &#x27;lisp&#x27;: &#x27;lisp&#x27;, &#x27;ls&#x27;: &#x27;livescript&#x27;, &#x27;logiql&#x27;: &#x27;logiql&#x27;, &#x27;lsl&#x27;: &#x27;lsl&#x27;, &#x27;lua&#x27;: &#x27;lua&#x27;, &#x27;luapage&#x27;: &#x27;luapage&#x27;, &#x27;lucene&#x27;: &#x27;lucene&#x27;, &#x27;makefile&#x27;: &#x27;makefile&#x27;, &#x27;md&#x27;: &#x27;markdown&#x27;, &#x27;mask&#x27;: &#x27;mask&#x27;, &#x27;m&#x27;: &#x27;matlab&#x27;, &#x27;mat&#x27;: &#x27;matlab&#x27;, &#x27;maze&#x27;: &#x27;maze&#x27;, &#x27;mel&#x27;: &#x27;mel&#x27;, &#x27;mdk&#x27;: &#x27;mixal&#x27;, &#x27;mush&#x27;: &#x27;mushcode&#x27;, &#x27;mysql&#x27;: &#x27;mysql&#x27;, &#x27;nix&#x27;: &#x27;nix&#x27;, &#x27;nsis&#x27;: &#x27;nsis&#x27;, &#x27;mm&#x27;: &#x27;objectivec&#x27;, &#x27;ocaml&#x27;: &#x27;ocaml&#x27;, &#x27;p&#x27;: &#x27;pascal&#x27;, &#x27;pl&#x27;: &#x27;pascal&#x27;, &#x27;pas&#x27;: &#x27;pascal&#x27;, &#x27;perl&#x27;: &#x27;perl&#x27;, &#x27;pgsql&#x27;: &#x27;pgsql&#x27;, &#x27;php&#x27;: &#x27;php&#x27;, &#x27;php_laravel_blade&#x27;: &#x27;php_laravel_blade&#x27;, &#x27;pig&#x27;: &#x27;pig&#x27;, &#x27;plain_text&#x27;: &#x27;plain_text&#x27;, &#x27;ps1&#x27;: &#x27;powershell&#x27;, &#x27;praat&#x27;: &#x27;praat&#x27;, &#x27;prolog&#x27;: &#x27;prolog&#x27;, &#x27;properties&#x27;: &#x27;properties&#x27;, &#x27;protobuf&#x27;: &#x27;protobuf&#x27;, &#x27;puppet&#x27;: &#x27;puppet&#x27;, &#x27;py&#x27;: &#x27;python&#x27;, &#x27;r&#x27;: &#x27;r&#x27;, &#x27;razor&#x27;: &#x27;razor&#x27;, &#x27;rdoc&#x27;: &#x27;rdoc&#x27;, &#x27;red&#x27;: &#x27;red&#x27;, &#x27;redshift&#x27;: &#x27;redshift&#x27;, &#x27;rhtml&#x27;: &#x27;rhtml&#x27;, &#x27;rst&#x27;: &#x27;rst&#x27;, &#x27;ruby&#x27;: &#x27;ruby&#x27;, &#x27;rust&#x27;: &#x27;rust&#x27;, &#x27;sass&#x27;: &#x27;sass&#x27;, &#x27;scad&#x27;: &#x27;scad&#x27;, &#x27;scala&#x27;: &#x27;scala&#x27;, &#x27;scheme&#x27;: &#x27;scheme&#x27;, &#x27;scss&#x27;: &#x27;scss&#x27;, &#x27;sh&#x27;: &#x27;sh&#x27;, &#x27;sjs&#x27;: &#x27;sjs&#x27;, &#x27;slim&#x27;: &#x27;slim&#x27;, &#x27;smarty&#x27;: &#x27;smarty&#x27;, &#x27;snippets&#x27;: &#x27;snippets&#x27;, &#x27;soy_template&#x27;: &#x27;soy_template&#x27;, &#x27;space&#x27;: &#x27;space&#x27;, &#x27;sparql&#x27;: &#x27;sparql&#x27;, &#x27;sql&#x27;: &#x27;sql&#x27;, &#x27;sqlserver&#x27;: &#x27;sqlserver&#x27;, &#x27;stylus&#x27;: &#x27;stylus&#x27;, &#x27;svg&#x27;: &#x27;svg&#x27;, &#x27;swift&#x27;: &#x27;swift&#x27;, &#x27;tcl&#x27;: &#x27;tcl&#x27;, &#x27;tf&#x27;: &#x27;terraform&#x27;, &#x27;tex&#x27;: &#x27;tex&#x27;, &#x27;txt&#x27;: &#x27;text&#x27;, &#x27;textile&#x27;: &#x27;textile&#x27;, &#x27;toml&#x27;: &#x27;toml&#x27;, &#x27;tsx&#x27;: &#x27;tsx&#x27;, &#x27;ttl&#x27;: &#x27;turtle&#x27;, &#x27;twig&#x27;: &#x27;twig&#x27;, &#x27;ts&#x27;: &#x27;typescript&#x27;, &#x27;vala&#x27;: &#x27;vala&#x27;, &#x27;vbs&#x27;: &#x27;vbscript&#x27;, &#x27;vm&#x27;: &#x27;velocity&#x27;, &#x27;v&#x27;: &#x27;verilog&#x27;, &#x27;vhdl&#x27;: &#x27;vhdl&#x27;, &#x27;wollok&#x27;: &#x27;wollok&#x27;, &#x27;xml&#x27;: &#x27;xml&#x27;, &#x27;xquery&#x27;: &#x27;xquery&#x27;, &#x27;yaml&#x27;: &#x27;yaml&#x27; }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="221" class="link-to-prism">src/app/app.component.ts:221</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Języki programowania wspierane przez edytor. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selected"></a>
+                        <span class="name">
+                            <b>
+                            selected
+                            </b>
+                            <a href="#selected"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>selected:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new FormControl(0)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="257" class="link-to-prism">src/app/app.component.ts:257</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Wybrana karta. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tabPath"></a>
+                        <span class="name">
+                            <b>
+                            tabPath
+                            </b>
+                            <a href="#tabPath"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>tabPath:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="237" class="link-to-prism">src/app/app.component.ts:237</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Ścieżka pliku otwartego w karcie. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tabs"></a>
+                        <span class="name">
+                            <b>
+                            tabs
+                            </b>
+                            <a href="#tabs"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>tabs:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Array()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="251" class="link-to-prism">src/app/app.component.ts:251</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Otwarte karty. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="themes"></a>
+                        <span class="name">
+                            <b>
+                            themes
+                            </b>
+                            <a href="#themes"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>themes:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;ambiance&#x27;, &#x27;chaos&#x27;, &#x27;chrome&#x27;, &#x27;clouds&#x27;, &#x27;clouds_midnight&#x27;, &#x27;cobalt&#x27;, &#x27;crimson_editor&#x27;, &#x27;dawn&#x27;, &#x27;dreamweaver&#x27;, &#x27;eclipse&#x27;, &#x27;github&#x27;, &#x27;idle_fingers&#x27;, &#x27;iplastic&#x27;, &#x27;katzenmilch&#x27;, &#x27;kr_theme&#x27;, &#x27;kuroir&#x27;, &#x27;merbivore&#x27;, &#x27;merbivore_soft&#x27;, &#x27;monokai&#x27;, &#x27;mono_industrial&#x27;, &#x27;pastel_on_dark&#x27;, &#x27;solarized_dark&#x27;, &#x27;solarized_light&#x27;, &#x27;sqlserver&#x27;, &#x27;terminal&#x27;, &#x27;textmate&#x27;, &#x27;tomorrow&#x27;, &#x27;tomorrow_night&#x27;, &#x27;tomorrow_night_blue&#x27;, &#x27;tomorrow_night_bright&#x27;, &#x27;tomorrow_night_eighties&#x27;, &#x27;twilight&#x27;, &#x27;vibrant_ink&#x27;, &#x27;xcode&#x27;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="218" class="link-to-prism">src/app/app.component.ts:218</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Tematy kolorystyczne edytora. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="token"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            token
+                            </b>
+                            <a href="#token"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <span class="modifier-icon icon ion-ios-reset"></span><code>token:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="259" class="link-to-prism">src/app/app.component.ts:259</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Token. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, OnDestroy } from &#x27;@angular/core&#x27;;
+import * as _ from &#x27;lodash&#x27;;
+import * as $ from &#x27;jquery&#x27;;
+import { interval, config } from &#x27;rxjs&#x27;;
+import * as ace from &#x27;brace&#x27;;
+import { Dropbox } from &#x27;dropbox&#x27;;
+import { FormControl } from &#x27;@angular/forms&#x27;;
+import { MatTabChangeEvent } from &#x27;@angular/material&#x27;;
+import { Editor } from &#x27;brace&#x27;;
+import &#x27;ace-builds/src-noconflict/ace&#x27;;
+import &#x27;brace/ext/beautify&#x27;;
+import &#x27;brace/ext/elastic_tabstops_lite&#x27;;
+import &#x27;brace/ext/emmet&#x27;;
+import &#x27;brace/ext/error_marker&#x27;;
+import &#x27;brace/ext/keybinding_menu&#x27;;
+import &#x27;brace/ext/language_tools&#x27;;
+import &#x27;brace/ext/linking&#x27;;
+import &#x27;brace/ext/modelist&#x27;;
+import &#x27;brace/ext/searchbox&#x27;;
+import &#x27;brace/ext/settings_menu&#x27;;
+import &#x27;brace/ext/spellcheck&#x27;;
+import &#x27;brace/ext/split&#x27;;
+import &#x27;brace/ext/static_highlight&#x27;;
+import &#x27;brace/ext/statusbar&#x27;;
+import &#x27;brace/ext/textarea&#x27;;
+import &#x27;brace/ext/themelist&#x27;;
+import &#x27;brace/ext/whitespace&#x27;;
+import &#x27;brace/keybinding/emacs&#x27;;
+import &#x27;brace/keybinding/vim&#x27;;
+import &#x27;brace/theme/ambiance&#x27;;
+import &#x27;brace/theme/chaos&#x27;;
+import &#x27;brace/theme/chrome&#x27;;
+import &#x27;brace/theme/clouds&#x27;;
+import &#x27;brace/theme/clouds_midnight&#x27;;
+import &#x27;brace/theme/cobalt&#x27;;
+import &#x27;brace/theme/crimson_editor&#x27;;
+import &#x27;brace/theme/dawn&#x27;;
+import &#x27;brace/theme/dreamweaver&#x27;;
+import &#x27;brace/theme/eclipse&#x27;;
+import &#x27;brace/theme/github&#x27;;
+import &#x27;brace/theme/idle_fingers&#x27;;
+import &#x27;brace/theme/iplastic&#x27;;
+import &#x27;brace/theme/katzenmilch&#x27;;
+import &#x27;brace/theme/kr_theme&#x27;;
+import &#x27;brace/theme/kuroir&#x27;;
+import &#x27;brace/theme/merbivore&#x27;;
+import &#x27;brace/theme/merbivore_soft&#x27;;
+import &#x27;brace/theme/monokai&#x27;;
+import &#x27;brace/theme/mono_industrial&#x27;;
+import &#x27;brace/theme/pastel_on_dark&#x27;;
+import &#x27;brace/theme/solarized_dark&#x27;;
+import &#x27;brace/theme/solarized_light&#x27;;
+import &#x27;brace/theme/sqlserver&#x27;;
+import &#x27;brace/theme/terminal&#x27;;
+import &#x27;brace/theme/textmate&#x27;;
+import &#x27;brace/theme/tomorrow&#x27;;
+import &#x27;brace/theme/tomorrow_night&#x27;;
+import &#x27;brace/theme/tomorrow_night_blue&#x27;;
+import &#x27;brace/theme/tomorrow_night_bright&#x27;;
+import &#x27;brace/theme/tomorrow_night_eighties&#x27;;
+import &#x27;brace/theme/twilight&#x27;;
+import &#x27;brace/theme/vibrant_ink&#x27;;
+import &#x27;brace/theme/xcode&#x27;;
+import &#x27;brace/mode/abap&#x27;;
+import &#x27;brace/mode/abc&#x27;;
+import &#x27;brace/mode/actionscript&#x27;;
+import &#x27;brace/mode/ada&#x27;;
+import &#x27;brace/mode/apache_conf&#x27;;
+import &#x27;brace/mode/applescript&#x27;;
+import &#x27;brace/mode/asciidoc&#x27;;
+import &#x27;brace/mode/assembly_x86&#x27;;
+import &#x27;brace/mode/autohotkey&#x27;;
+import &#x27;brace/mode/batchfile&#x27;;
+import &#x27;brace/mode/bro&#x27;;
+import &#x27;brace/mode/c9search&#x27;;
+import &#x27;brace/mode/cirru&#x27;;
+import &#x27;brace/mode/clojure&#x27;;
+import &#x27;brace/mode/cobol&#x27;;
+import &#x27;brace/mode/coffee&#x27;;
+import &#x27;brace/mode/coldfusion&#x27;;
+import &#x27;brace/mode/csharp&#x27;;
+import &#x27;brace/mode/css&#x27;;
+import &#x27;brace/mode/curly&#x27;;
+import &#x27;brace/mode/c_cpp&#x27;;
+import &#x27;brace/mode/d&#x27;;
+import &#x27;brace/mode/dart&#x27;;
+import &#x27;brace/mode/diff&#x27;;
+import &#x27;brace/mode/django&#x27;;
+import &#x27;brace/mode/dockerfile&#x27;;
+import &#x27;brace/mode/dot&#x27;;
+import &#x27;brace/mode/drools&#x27;;
+import &#x27;brace/mode/eiffel&#x27;;
+import &#x27;brace/mode/ejs&#x27;;
+import &#x27;brace/mode/elixir&#x27;;
+import &#x27;brace/mode/elm&#x27;;
+import &#x27;brace/mode/erlang&#x27;;
+import &#x27;brace/mode/forth&#x27;;
+import &#x27;brace/mode/fortran&#x27;;
+import &#x27;brace/mode/ftl&#x27;;
+import &#x27;brace/mode/gcode&#x27;;
+import &#x27;brace/mode/gherkin&#x27;;
+import &#x27;brace/mode/gitignore&#x27;;
+import &#x27;brace/mode/glsl&#x27;;
+import &#x27;brace/mode/gobstones&#x27;;
+import &#x27;brace/mode/golang&#x27;;
+import &#x27;brace/mode/groovy&#x27;;
+import &#x27;brace/mode/haml&#x27;;
+import &#x27;brace/mode/handlebars&#x27;;
+import &#x27;brace/mode/haskell&#x27;;
+import &#x27;brace/mode/haskell_cabal&#x27;;
+import &#x27;brace/mode/haxe&#x27;;
+import &#x27;brace/mode/hjson&#x27;;
+import &#x27;brace/mode/html&#x27;;
+import &#x27;brace/mode/html_elixir&#x27;;
+import &#x27;brace/mode/html_ruby&#x27;;
+import &#x27;brace/mode/ini&#x27;;
+import &#x27;brace/mode/io&#x27;;
+import &#x27;brace/mode/jack&#x27;;
+import &#x27;brace/mode/jade&#x27;;
+import &#x27;brace/mode/java&#x27;;
+import &#x27;brace/mode/javascript&#x27;;
+import &#x27;brace/mode/json&#x27;;
+import &#x27;brace/mode/jsoniq&#x27;;
+import &#x27;brace/mode/jsp&#x27;;
+import &#x27;brace/mode/jsx&#x27;;
+import &#x27;brace/mode/julia&#x27;;
+import &#x27;brace/mode/kotlin&#x27;;
+import &#x27;brace/mode/latex&#x27;;
+import &#x27;brace/mode/lean&#x27;;
+import &#x27;brace/mode/less&#x27;;
+import &#x27;brace/mode/liquid&#x27;;
+import &#x27;brace/mode/lisp&#x27;;
+import &#x27;brace/mode/livescript&#x27;;
+import &#x27;brace/mode/live_script&#x27;;
+import &#x27;brace/mode/logiql&#x27;;
+import &#x27;brace/mode/lsl&#x27;;
+import &#x27;brace/mode/lua&#x27;;
+import &#x27;brace/mode/luapage&#x27;;
+import &#x27;brace/mode/lucene&#x27;;
+import &#x27;brace/mode/makefile&#x27;;
+import &#x27;brace/mode/markdown&#x27;;
+import &#x27;brace/mode/mask&#x27;;
+import &#x27;brace/mode/matlab&#x27;;
+import &#x27;brace/mode/mavens_mate_log&#x27;;
+import &#x27;brace/mode/maze&#x27;;
+import &#x27;brace/mode/mel&#x27;;
+import &#x27;brace/mode/mipsassembler&#x27;;
+import &#x27;brace/mode/mips_assembler&#x27;;
+import &#x27;brace/mode/mushcode&#x27;;
+import &#x27;brace/mode/mysql&#x27;;
+import &#x27;brace/mode/nix&#x27;;
+import &#x27;brace/mode/nsis&#x27;;
+import &#x27;brace/mode/objectivec&#x27;;
+import &#x27;brace/mode/ocaml&#x27;;
+import &#x27;brace/mode/pascal&#x27;;
+import &#x27;brace/mode/perl&#x27;;
+import &#x27;brace/mode/pgsql&#x27;;
+import &#x27;brace/mode/php&#x27;;
+import &#x27;brace/mode/plain_text&#x27;;
+import &#x27;brace/mode/powershell&#x27;;
+import &#x27;brace/mode/praat&#x27;;
+import &#x27;brace/mode/prolog&#x27;;
+import &#x27;brace/mode/properties&#x27;;
+import &#x27;brace/mode/protobuf&#x27;;
+import &#x27;brace/mode/python&#x27;;
+import &#x27;brace/mode/r&#x27;;
+import &#x27;brace/mode/razor&#x27;;
+import &#x27;brace/mode/rdoc&#x27;;
+import &#x27;brace/mode/rhtml&#x27;;
+import &#x27;brace/mode/rst&#x27;;
+import &#x27;brace/mode/ruby&#x27;;
+import &#x27;brace/mode/rust&#x27;;
+import &#x27;brace/mode/sass&#x27;;
+import &#x27;brace/mode/scad&#x27;;
+import &#x27;brace/mode/scala&#x27;;
+import &#x27;brace/mode/scheme&#x27;;
+import &#x27;brace/mode/scss&#x27;;
+import &#x27;brace/mode/sh&#x27;;
+import &#x27;brace/mode/sjs&#x27;;
+import &#x27;brace/mode/smarty&#x27;;
+import &#x27;brace/mode/snippets&#x27;;
+import &#x27;brace/mode/soy_template&#x27;;
+import &#x27;brace/mode/space&#x27;;
+import &#x27;brace/mode/sql&#x27;;
+import &#x27;brace/mode/sqlserver&#x27;;
+import &#x27;brace/mode/stylus&#x27;;
+import &#x27;brace/mode/svg&#x27;;
+import &#x27;brace/mode/swift&#x27;;
+import &#x27;brace/mode/swig&#x27;;
+import &#x27;brace/mode/tcl&#x27;;
+import &#x27;brace/mode/tex&#x27;;
+import &#x27;brace/mode/text&#x27;;
+import &#x27;brace/mode/textile&#x27;;
+import &#x27;brace/mode/toml&#x27;;
+import &#x27;brace/mode/tsx&#x27;;
+import &#x27;brace/mode/twig&#x27;;
+import &#x27;brace/mode/typescript&#x27;;
+import &#x27;brace/mode/vala&#x27;;
+import &#x27;brace/mode/vbscript&#x27;;
+import &#x27;brace/mode/velocity&#x27;;
+import &#x27;brace/mode/verilog&#x27;;
+import &#x27;brace/mode/vhdl&#x27;;
+import &#x27;brace/mode/wollok&#x27;;
+import &#x27;brace/mode/xml&#x27;;
+import &#x27;brace/mode/xquery&#x27;;
+import &#x27;brace/mode/yaml&#x27;;
+import &#x27;brace/worker/c_cpp&#x27;;
+
+@Component({
+  selector: &#x27;app-root&#x27;,
+  templateUrl: &#x27;./app.component.html&#x27;,
+  styleUrls: [&#x27;./app.component.css&#x27;]
+})
+
+export class AppComponent implements OnInit {
+  /** Tematy kolorystyczne edytora. */
+  // tslint:disable-next-line:max-line-length
+  themes &#x3D; [&#x27;ambiance&#x27;, &#x27;chaos&#x27;, &#x27;chrome&#x27;, &#x27;clouds&#x27;, &#x27;clouds_midnight&#x27;, &#x27;cobalt&#x27;, &#x27;crimson_editor&#x27;, &#x27;dawn&#x27;, &#x27;dreamweaver&#x27;, &#x27;eclipse&#x27;, &#x27;github&#x27;, &#x27;idle_fingers&#x27;, &#x27;iplastic&#x27;, &#x27;katzenmilch&#x27;, &#x27;kr_theme&#x27;, &#x27;kuroir&#x27;, &#x27;merbivore&#x27;, &#x27;merbivore_soft&#x27;, &#x27;monokai&#x27;, &#x27;mono_industrial&#x27;, &#x27;pastel_on_dark&#x27;, &#x27;solarized_dark&#x27;, &#x27;solarized_light&#x27;, &#x27;sqlserver&#x27;, &#x27;terminal&#x27;, &#x27;textmate&#x27;, &#x27;tomorrow&#x27;, &#x27;tomorrow_night&#x27;, &#x27;tomorrow_night_blue&#x27;, &#x27;tomorrow_night_bright&#x27;, &#x27;tomorrow_night_eighties&#x27;, &#x27;twilight&#x27;, &#x27;vibrant_ink&#x27;, &#x27;xcode&#x27;];
+  /** Języki programowania wspierane przez edytor. */
+  // tslint:disable-next-line:max-line-length
+  languages &#x3D; { &#x27;abap&#x27;: &#x27;abap&#x27;, &#x27;abc&#x27;: &#x27;abc&#x27;, &#x27;as&#x27;: &#x27;actionscript&#x27;, &#x27;ada&#x27;: &#x27;ada&#x27;, &#x27;apache_conf&#x27;: &#x27;apache_conf&#x27;, &#x27;applescript&#x27;: &#x27;applescript&#x27;, &#x27;adoc&#x27;: &#x27;asciidoc&#x27;, &#x27;asl&#x27;: &#x27;asl&#x27;, &#x27;asm&#x27;: &#x27;assembly_x86&#x27;, &#x27;ahk&#x27;: &#x27;autohotkey&#x27;, &#x27;bat&#x27;: &#x27;batchfile&#x27;, &#x27;bro&#x27;: &#x27;bro&#x27;, &#x27;c9search&#x27;: &#x27;c9search&#x27;, &#x27;cirru&#x27;: &#x27;cirru&#x27;, &#x27;clj&#x27;: &#x27;clojure&#x27;, &#x27;cobol&#x27;: &#x27;cobol&#x27;, &#x27;coffee&#x27;: &#x27;coffee&#x27;, &#x27;cfm&#x27;: &#x27;coldfusion&#x27;, &#x27;cs&#x27;: &#x27;csharp&#x27;, &#x27;csd&#x27;: &#x27;csound_document&#x27;, &#x27;orc&#x27;: &#x27;csound_orchestra&#x27;, &#x27;sco&#x27;: &#x27;csound_score&#x27;, &#x27;csp&#x27;: &#x27;csp&#x27;, &#x27;css&#x27;: &#x27;css&#x27;, &#x27;curly&#x27;: &#x27;curly&#x27;, &#x27;cpp&#x27;: &#x27;c_cpp&#x27;, &#x27;h&#x27;: &#x27;c_cpp&#x27;, &#x27;d&#x27;: &#x27;d&#x27;, &#x27;dart&#x27;: &#x27;dart&#x27;, &#x27;diff&#x27;: &#x27;diff&#x27;, &#x27;django&#x27;: &#x27;django&#x27;, &#x27;dockerfile&#x27;: &#x27;dockerfile&#x27;, &#x27;dot&#x27;: &#x27;dot&#x27;, &#x27;drl&#x27;: &#x27;drools&#x27;, &#x27;edi&#x27;: &#x27;edifact&#x27;, &#x27;e&#x27;: &#x27;eiffel&#x27;, &#x27;ejs&#x27;: &#x27;ejs&#x27;, &#x27;ex&#x27;: &#x27;elixir&#x27;, &#x27;elm&#x27;: &#x27;elm&#x27;, &#x27;erl&#x27;: &#x27;erlang&#x27;, &#x27;forth&#x27;: &#x27;forth&#x27;, &#x27;f&#x27;: &#x27;fortran&#x27;, &#x27;fs&#x27;: &#x27;fsharp&#x27;, &#x27;ftl&#x27;: &#x27;ftl&#x27;, &#x27;gcode&#x27;: &#x27;gcode&#x27;, &#x27;gherkin&#x27;: &#x27;gherkin&#x27;, &#x27;gitignore&#x27;: &#x27;gitignore&#x27;, &#x27;glsl&#x27;: &#x27;glsl&#x27;, &#x27;gobstones&#x27;: &#x27;gobstones&#x27;, &#x27;go&#x27;: &#x27;golang&#x27;, &#x27;graphql&#x27;: &#x27;graphqlschema&#x27;, &#x27;groovy&#x27;: &#x27;groovy&#x27;, &#x27;haml&#x27;: &#x27;haml&#x27;, &#x27;handlebars&#x27;: &#x27;handlebars&#x27;, &#x27;hs&#x27;: &#x27;haskell&#x27;, &#x27;cabal&#x27;: &#x27;haskell_cabal&#x27;, &#x27;hx&#x27;: &#x27;haxe&#x27;, &#x27;hjson&#x27;: &#x27;hjson&#x27;, &#x27;html&#x27;: &#x27;html&#x27;, &#x27;htm&#x27;: &#x27;html&#x27;, &#x27;html_elixir&#x27;: &#x27;html_elixir&#x27;, &#x27;html_ruby&#x27;: &#x27;html_ruby&#x27;, &#x27;ini&#x27;: &#x27;ini&#x27;, &#x27;io&#x27;: &#x27;io&#x27;, &#x27;jack&#x27;: &#x27;jack&#x27;, &#x27;jade&#x27;: &#x27;jade&#x27;, &#x27;java&#x27;: &#x27;java&#x27;, &#x27;js&#x27;: &#x27;javascript&#x27;, &#x27;json&#x27;: &#x27;json&#x27;, &#x27;jsoniq&#x27;: &#x27;jsoniq&#x27;, &#x27;jsp&#x27;: &#x27;jsp&#x27;, &#x27;jssm&#x27;: &#x27;jssm&#x27;, &#x27;jsx&#x27;: &#x27;jsx&#x27;, &#x27;jl&#x27;: &#x27;julia&#x27;, &#x27;kt&#x27;: &#x27;kotlin&#x27;, &#x27;less&#x27;: &#x27;less&#x27;, &#x27;liquid&#x27;: &#x27;liquid&#x27;, &#x27;lisp&#x27;: &#x27;lisp&#x27;, &#x27;ls&#x27;: &#x27;livescript&#x27;, &#x27;logiql&#x27;: &#x27;logiql&#x27;, &#x27;lsl&#x27;: &#x27;lsl&#x27;, &#x27;lua&#x27;: &#x27;lua&#x27;, &#x27;luapage&#x27;: &#x27;luapage&#x27;, &#x27;lucene&#x27;: &#x27;lucene&#x27;, &#x27;makefile&#x27;: &#x27;makefile&#x27;, &#x27;md&#x27;: &#x27;markdown&#x27;, &#x27;mask&#x27;: &#x27;mask&#x27;, &#x27;m&#x27;: &#x27;matlab&#x27;, &#x27;mat&#x27;: &#x27;matlab&#x27;, &#x27;maze&#x27;: &#x27;maze&#x27;, &#x27;mel&#x27;: &#x27;mel&#x27;, &#x27;mdk&#x27;: &#x27;mixal&#x27;, &#x27;mush&#x27;: &#x27;mushcode&#x27;, &#x27;mysql&#x27;: &#x27;mysql&#x27;, &#x27;nix&#x27;: &#x27;nix&#x27;, &#x27;nsis&#x27;: &#x27;nsis&#x27;, &#x27;mm&#x27;: &#x27;objectivec&#x27;, &#x27;ocaml&#x27;: &#x27;ocaml&#x27;, &#x27;p&#x27;: &#x27;pascal&#x27;, &#x27;pl&#x27;: &#x27;pascal&#x27;, &#x27;pas&#x27;: &#x27;pascal&#x27;, &#x27;perl&#x27;: &#x27;perl&#x27;, &#x27;pgsql&#x27;: &#x27;pgsql&#x27;, &#x27;php&#x27;: &#x27;php&#x27;, &#x27;php_laravel_blade&#x27;: &#x27;php_laravel_blade&#x27;, &#x27;pig&#x27;: &#x27;pig&#x27;, &#x27;plain_text&#x27;: &#x27;plain_text&#x27;, &#x27;ps1&#x27;: &#x27;powershell&#x27;, &#x27;praat&#x27;: &#x27;praat&#x27;, &#x27;prolog&#x27;: &#x27;prolog&#x27;, &#x27;properties&#x27;: &#x27;properties&#x27;, &#x27;protobuf&#x27;: &#x27;protobuf&#x27;, &#x27;puppet&#x27;: &#x27;puppet&#x27;, &#x27;py&#x27;: &#x27;python&#x27;, &#x27;r&#x27;: &#x27;r&#x27;, &#x27;razor&#x27;: &#x27;razor&#x27;, &#x27;rdoc&#x27;: &#x27;rdoc&#x27;, &#x27;red&#x27;: &#x27;red&#x27;, &#x27;redshift&#x27;: &#x27;redshift&#x27;, &#x27;rhtml&#x27;: &#x27;rhtml&#x27;, &#x27;rst&#x27;: &#x27;rst&#x27;, &#x27;ruby&#x27;: &#x27;ruby&#x27;, &#x27;rust&#x27;: &#x27;rust&#x27;, &#x27;sass&#x27;: &#x27;sass&#x27;, &#x27;scad&#x27;: &#x27;scad&#x27;, &#x27;scala&#x27;: &#x27;scala&#x27;, &#x27;scheme&#x27;: &#x27;scheme&#x27;, &#x27;scss&#x27;: &#x27;scss&#x27;, &#x27;sh&#x27;: &#x27;sh&#x27;, &#x27;sjs&#x27;: &#x27;sjs&#x27;, &#x27;slim&#x27;: &#x27;slim&#x27;, &#x27;smarty&#x27;: &#x27;smarty&#x27;, &#x27;snippets&#x27;: &#x27;snippets&#x27;, &#x27;soy_template&#x27;: &#x27;soy_template&#x27;, &#x27;space&#x27;: &#x27;space&#x27;, &#x27;sparql&#x27;: &#x27;sparql&#x27;, &#x27;sql&#x27;: &#x27;sql&#x27;, &#x27;sqlserver&#x27;: &#x27;sqlserver&#x27;, &#x27;stylus&#x27;: &#x27;stylus&#x27;, &#x27;svg&#x27;: &#x27;svg&#x27;, &#x27;swift&#x27;: &#x27;swift&#x27;, &#x27;tcl&#x27;: &#x27;tcl&#x27;, &#x27;tf&#x27;: &#x27;terraform&#x27;, &#x27;tex&#x27;: &#x27;tex&#x27;, &#x27;txt&#x27;: &#x27;text&#x27;, &#x27;textile&#x27;: &#x27;textile&#x27;, &#x27;toml&#x27;: &#x27;toml&#x27;, &#x27;tsx&#x27;: &#x27;tsx&#x27;, &#x27;ttl&#x27;: &#x27;turtle&#x27;, &#x27;twig&#x27;: &#x27;twig&#x27;, &#x27;ts&#x27;: &#x27;typescript&#x27;, &#x27;vala&#x27;: &#x27;vala&#x27;, &#x27;vbs&#x27;: &#x27;vbscript&#x27;, &#x27;vm&#x27;: &#x27;velocity&#x27;, &#x27;v&#x27;: &#x27;verilog&#x27;, &#x27;vhdl&#x27;: &#x27;vhdl&#x27;, &#x27;wollok&#x27;: &#x27;wollok&#x27;, &#x27;xml&#x27;: &#x27;xml&#x27;, &#x27;xquery&#x27;: &#x27;xquery&#x27;, &#x27;yaml&#x27;: &#x27;yaml&#x27; };
+  /** Rozmiary czcionki edytora. */
+  fontSizes &#x3D; [12, 14, 16, 18, 20, 22, 24, 26, 30];
+  /** Fonty edytora. */
+  fonts &#x3D; [&#x27;Consolas&#x27;, &#x27;Courier New&#x27;, &#x27;Arial&#x27;];
+  /** Zawartość aktualnie otwartej karty. */
+  contents;
+  /** Ścieżka aktualnie otwartego pliku. */
+  filePath: string;
+  /** Pliki w eksploratorze plików. */
+  filesList;
+  /** Foldery w eksploratorze plików. */
+  foldersList;
+  /** Ścieżka otwartego folderu w eksploratorze plików. */
+  folderPath &#x3D; &#x27;&#x27;;
+  /** Ścieżka pliku otwartego w karcie. */
+  tabPath;
+  /** Konfiguracja edytora. */
+  config &#x3D; {
+    wrapMode: true,
+    lastFiles: &#x27;&#x27;,
+    theme: this.themes[21],
+    font: &#x27;Consolas&#x27;,
+    fontSize: 20,
+    autoSave: true,
+    openFiles: [],
+    moveExplorer: false,
+    configAutoSave: true
+  };
+  /** Otwarte karty. */
+  tabs &#x3D; new Array();
+  /** Instancja klienta Dropbox. */
+  dbx &#x3D; new Dropbox({ accessToken: document.cookie });
+  /** Instancja edytora Ace. */
+  editor: Editor;
+  /** Wybrana karta. */
+  selected &#x3D; new FormControl(0);
+  /** Token. */
+  private token;
+
+  /** Pokazuje właściwości otwartego pliku. */
+  showProperties(response) {
+    $(&#x27;#properties&#x27;).fadeIn();
+    $(&#x27;#propertiesTitle&#x27;).fadeIn();
+    document.getElementById(&#x27;fileSize&#x27;).innerHTML &#x3D; ((response.size / 1024).toFixed(2) + &#x27; KB&#x27;);
+    const startTimeISOString &#x3D; response.server_modified;
+    let startTime &#x3D; new Date(startTimeISOString);
+    startTime &#x3D; new Date(startTime.getTime() + (startTime.getTimezoneOffset() * 60000));
+    document.getElementById(&#x27;fileMod&#x27;).innerHTML &#x3D; startTime.toLocaleDateString();
+  }
+
+  /** Wykonana zostaje po otwarciu karty edytora, pobiera zasoby z konta Dropbox. */
+  public tabChanged(tabChangeEvent: MatTabChangeEvent): void {
+    this.filePath &#x3D; tabChangeEvent.tab.textLabel;
+    $(&#x27;#loadingfile&#x27;).show();
+    const ext &#x3D; this.filePath.split(&#x27;.&#x27;).pop();
+    const lowerExt &#x3D; ext.toLowerCase();
+    if (lowerExt &#x3D;&#x3D;&#x3D; &#x27;png&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;jpg&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;jpeg&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;svg&#x27;) {
+      this.getThumbnail(this.filePath);
+    } else {
+      this.dbx.filesDownload({ path: this.filePath })
+        .then((response) &#x3D;&gt; {
+          const blob &#x3D; response.fileBlob;
+          const reader &#x3D; new FileReader();
+          this.showProperties(response);
+          reader.onloadend &#x3D; () &#x3D;&gt; {
+            $(&#x27;#loadingfile&#x27;).hide();
+            this.contents &#x3D; reader.result;
+            this.editor &#x3D; ace.edit(&#x27;editor&#x27;);
+            this.editor.getSession().setValue(this.contents);
+            this.editor.focus();
+            this.editor.setTheme(&#x27;ace/theme/&#x27; + this.config.theme);
+            this.editor.getSession().setMode(&#x27;ace/mode/&#x27; + this.languages[ext]);
+            this.editor.getSession().setUseWrapMode(this.config.wrapMode);
+            document.getElementById(&#x27;editor&#x27;).style.fontFamily &#x3D; this.config.font;
+            document.getElementById(&#x27;editor&#x27;).style.fontSize &#x3D; this.config.fontSize + &#x27;px&#x27;;
+            this.config.openFiles &#x3D; this.tabs;
+            this.saveConfig();
+          };
+          reader.readAsText(blob);
+        });
+    }
+  }
+
+  /** Aktualizuje temat kolorstyczny. */
+  updateTheme(theme) {
+    this.editor.setTheme(&#x27;ace/theme/&#x27; + this.config.theme);
+    this.config.theme &#x3D; theme;
+  }
+
+  /** Aktualizuje font. */
+  updateFont(font) {
+    document.getElementById(&#x27;editor&#x27;).style.fontFamily &#x3D; font;
+    this.config.font &#x3D; font;
+  }
+
+  /** Aktualizuje font. */
+  updateFontSize(fontSize) {
+    document.getElementById(&#x27;editor&#x27;).style.fontSize &#x3D; fontSize + &#x27;px&#x27;;
+    this.config.fontSize &#x3D; fontSize;
+  }
+
+  /** Aktualizuje zawijanie wierszy. */
+  updateWrapMode(wrapMode) {
+    if (this.config.wrapMode &#x3D;&#x3D;&#x3D; true) {
+      this.editor.getSession().setUseWrapMode(true);
+    } else {
+      this.editor.getSession().setUseWrapMode(false);
+    }
+    this.config.wrapMode &#x3D; wrapMode;
+  }
+
+  /** Aktualizuje font. */
+  removeTab(index: number) {
+    this.filePath &#x3D; null;
+    this.tabPath.splice(this.tabPath.indexOf(this.filePath), 1);
+    this.tabs.splice(index, 1);
+    this.config.openFiles &#x3D; this.tabs;
+    this.saveConfig();
+    if (this.tabs.length &lt; 1) {
+      $(&#x27;#properties&#x27;).fadeOut();
+      $(&#x27;#propertiesTitle&#x27;).fadeOut();
+    }
+  }
+
+  /** Pokazuje lub chowa panel boczny. */
+  setExplorer() {
+    if ($(&#x27;#explorer:visible&#x27;).length &#x3D;&#x3D;&#x3D; 0) {
+      $(&#x27;#explorer&#x27;).fadeIn();
+    } else {
+      $(&#x27;#explorer&#x27;).fadeOut();
+    }
+  }
+
+  /** Przenosi panel boczny w prawą lub lewą stronę. */
+  moveExplorer() {
+    if (this.config.moveExplorer &#x3D;&#x3D;&#x3D; true) {
+      $(&#x27;#explorer&#x27;).insertBefore(&#x27;#code&#x27;);
+    } else {
+      $(&#x27;#code&#x27;).insertBefore(&#x27;#explorer&#x27;);
+    }
+  }
+
+  /** Uruchamia się po tym jak Angular zainicjuje wszystkie związane z danymi właściwości dyrektywy. */
+  ngOnInit() {
+    if (navigator.cookieEnabled) {
+      if (this.getHashValue(&#x27;access_token&#x27;) !&#x3D;&#x3D; null) {
+        document.cookie &#x3D; this.getHashValue(&#x27;access_token&#x27;);
+        history.pushState(null, null, &#x27;http://localhost:4200/&#x27;);
+        window.location.replace(&#x27;http://localhost:4200/&#x27;);
+      }
+      if (document.cookie.length &lt; 2) {
+        const modal &#x3D; document.getElementById(&#x27;auth&#x27;);
+        modal.style.display &#x3D; &#x27;block&#x27;;
+      }
+    } else {
+      console.log(&#x27;Nie obsługuję ciasteczek&#x27;);
+    }
+    this.tabPath &#x3D; new Array();
+    this.loadConfig();
+
+    /** Wyświetla komunikat w przypadku, gdy karta przegladarki ma zostać zamknieta. */
+    $(document).ready(() &#x3D;&gt; {
+      if (document.cookie) {
+        $(window).on(&#x27;beforeunload&#x27;, () &#x3D;&gt; {
+          return &#x27;Niezapisane zmiany zostaną utracone!&#x27;;
+        });
+        $(document).on(&#x27;submit&#x27;, &#x27;form&#x27;, () &#x3D;&gt; {
+          $(window).off(&#x27;beforeunload&#x27;);
+        });
+      }
+    });
+
+    /** Tworzy skróty klawiszowe. */
+    $(document).bind(&#x27;keydown&#x27;, (e) &#x3D;&gt; {
+      if (e.ctrlKey &amp;&amp; (e.which &#x3D;&#x3D;&#x3D; 83)) { // ctrl + s
+        e.preventDefault();
+        this.saveFile();
+        return false;
+      }
+      if (e.ctrlKey &amp;&amp; (e.which &#x3D;&#x3D;&#x3D; 66)) { // ctrl + b
+        e.preventDefault();
+        this.setExplorer();
+        return false;
+      }
+      if (e.ctrlKey &amp;&amp; (e.which &#x3D;&#x3D;&#x3D; 78)) { // ctrl + n
+        e.preventDefault();
+        this.createFile();
+        return false;
+      }
+    });
+
+    this.downloadList(false);
+    // tslint:disable-next-line:no-unused-expression
+    interval(5 * 1000).subscribe(x &#x3D;&gt; this.downloadList(false));
+    if (this.config.autoSave &#x3D;&#x3D;&#x3D; true) { interval(10 * 1000).subscribe(x &#x3D;&gt; this.saveFile()); }
+  }
+
+  /** Przenosi do adresu autoryzacyjnego. */
+  auth() {
+    // tslint:disable-next-line:max-line-length
+    window.location.href &#x3D; &#x27;https://www.dropbox.com/oauth2/authorize?client_id&#x3D;cbwtbou2fk0gf2g&amp;response_type&#x3D;token&amp;redirect_uri&#x3D;http://localhost:4200&amp;state&#x3D;us7dk48kd21axls&#x27;;
+  }
+
+  /** Tworzy folder. */
+  createFolder() {
+    let path &#x3D; prompt(&#x27;Wprowadź nazwę folderu&#x27;, &#x27;Nowy folder&#x27;);
+    if (path &#x3D;&#x3D;&#x3D; null) { return; }
+    if (path !&#x3D;&#x3D; null || path !&#x3D;&#x3D; &#x27;&#x27;) {
+      path &#x3D; this.folderPath + &#x27;/&#x27; + path;
+      this.dbx.filesCreateFolder({
+        path: path,
+        autorename: true
+      })
+        .then(() &#x3D;&gt; {
+          this.downloadList(true);
+        })
+        .catch(function (error) {
+          console.error(error);
+          $(&#x27;#loadingfile&#x27;).hide();
+          alert(&#x27;Błąd tworzenia folderu. Spróbuj ponownie.&#x27;);
+        });
+    }
+  }
+
+  /** Tworzy plik tekstowy. */
+  createFile() {
+    const path &#x3D; prompt(&#x27;Wprowadź nazwę pliku&#x27;, &#x27;&#x27;);
+    if (path &#x3D;&#x3D;&#x3D; null) { return; }
+    const fpath &#x3D; this.folderPath + &#x27;/&#x27; + path;
+    if (path !&#x3D;&#x3D; null || path !&#x3D;&#x3D; &#x27;&#x27;) {
+      this.dbx.filesUpload({
+        path: fpath,
+        contents: &#x27;&#x27;,
+        mode: { &#x27;.tag&#x27;: &#x27;overwrite&#x27; },
+        autorename: true,
+        mute: true,
+        strict_conflict: false
+      })
+        .then(() &#x3D;&gt; {
+          this.downloadFile(path, false);
+          this.downloadList(false);
+        })
+        .catch(function (error) {
+          console.error(error);
+          $(&#x27;#loadingfile&#x27;).hide();
+          alert(&#x27;Błąd tworzenia pliku. Spróbuj ponownie.&#x27;);
+        });
+    }
+  }
+
+  /** Usuwa plik ze ścieżki wskazanej w argumencie. */
+  deleteFile(path) {
+    if (confirm(&#x27;Czy aby na pewno chcesz usunąć &quot;&#x27; + path + &#x27;&quot; ?&#x27;)) {
+      path &#x3D; this.folderPath + &#x27;/&#x27; + path;
+      this.dbx.filesDelete({
+        path: path
+      })
+        .then(() &#x3D;&gt; {
+          this.downloadList(true);
+        })
+        .catch(function (error) {
+          console.error(error);
+          alert(&#x27;Błąd usuwania pliku. Spróbuj ponownie.&#x27;);
+        });
+    }
+  }
+
+  /** Pobiera plik wskazany w argumencie i otwiera w nowej karcie, lub zapisuje na dysku twardym. */
+  downloadFile(path, saveOnDisc) {
+    this.filePath &#x3D; this.folderPath + &#x27;/&#x27; + path;
+    if (saveOnDisc &#x3D;&#x3D;&#x3D; false) {
+      if ($.inArray(this.filePath, this.tabs) &#x3D;&#x3D;&#x3D; -1) {
+        this.tabs.push(this.folderPath + &#x27;/&#x27; + path);
+        this.selected.setValue(this.tabs.length - 1);
+      }
+    } else {
+      this.dbx.filesDownload({ path: this.folderPath + &#x27;/&#x27; + path })
+        .then((response) &#x3D;&gt; {
+          const blob &#x3D; response.fileBlob;
+          this.tabPath.push(this.folderPath + &#x27;/&#x27; + path);
+          const a &#x3D; window.document.createElement(&#x27;a&#x27;);
+          a.href &#x3D; window.URL.createObjectURL(blob);
+          a.download &#x3D; path;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        })
+        .catch(function (error) {
+          console.error(error);
+          $(&#x27;#loadingfile&#x27;).hide();
+          alert(&#x27;Błąd ładowania pliku. Spróbuj ponownie.&#x27;);
+        });
+    }
+  }
+
+  /** Pobiera folder wskazany w argumencie i zapisuje na dysku twardym w postaci pliku ZIP. */
+  downloadFolder(path) {
+    this.dbx.filesDownloadZip({
+      path: this.folderPath + &#x27;/&#x27; + path
+    })
+      .then((response) &#x3D;&gt; {
+        const blob &#x3D; response[&#x27;fileBlob&#x27;];
+        const a &#x3D; window.document.createElement(&#x27;a&#x27;);
+        a.href &#x3D; window.URL.createObjectURL(blob);
+        a.download &#x3D; path;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      })
+      .catch(function (error) {
+        console.error(error);
+        alert(&#x27;Błąd pobierania folderu. Spróbuj ponownie.&#x27;);
+      });
+  }
+
+  /** Pobiera listę plików i wyświetla ją w panelu bocznym. */
+  downloadList(alert) {
+    if (alert &#x3D;&#x3D;&#x3D; true) {
+      $(&#x27;#loadinglist&#x27;).show();
+      this.foldersList &#x3D; null;
+      this.filesList &#x3D; null;
+    }
+    this.dbx.filesListFolder({ path: this.folderPath })
+      .then((response) &#x3D;&gt; {
+        const folders &#x3D; response.entries.filter(a &#x3D;&gt; a[&#x27;.tag&#x27;] &#x3D;&#x3D;&#x3D; &#x27;folder&#x27;);
+        const files &#x3D; response.entries.filter(a &#x3D;&gt; a[&#x27;.tag&#x27;] &#x3D;&#x3D;&#x3D; &#x27;file&#x27;);
+        this.foldersList &#x3D; folders.map(a &#x3D;&gt; a.name).sort();
+        this.filesList &#x3D; files.map(a &#x3D;&gt; a.name).sort();
+        $(&#x27;#loadinglist&#x27;).hide();
+        (&lt;HTMLInputElement&gt;document.getElementById(&#x27;goUpList&#x27;)).disabled &#x3D; false;
+        document.getElementById(&#x27;stats&#x27;).innerHTML &#x3D; &#x27;Połączono z kontem Dropbox&#x27;;
+        document.getElementById(&#x27;stats&#x27;).style.color &#x3D; &#x27;Chartreuse&#x27;;
+      })
+      .catch(function (error) {
+        console.error(error);
+        document.getElementById(&#x27;stats&#x27;).innerHTML &#x3D; &#x27;Wystąpił błąd, sprawdź połączenie z Internetem&#x27;;
+        document.getElementById(&#x27;stats&#x27;).style.color &#x3D; &#x27;#ff6464&#x27;;
+        $(&#x27;#loadinglist&#x27;).hide();
+      });
+  }
+
+  /** Pobiera miniaturę obrazu wskazanego w argumencie. */
+  getThumbnail(path) {
+    console.log(path);
+    this.dbx.filesGetThumbnail({
+      path: path,
+      format: { &#x27;.tag&#x27;: &#x27;png&#x27; },
+      size: { &#x27;.tag&#x27;: &#x27;w1024h768&#x27; },
+      mode: { &#x27;.tag&#x27;: &#x27;bestfit&#x27; }
+    })
+      .then((response) &#x3D;&gt; {
+        const url &#x3D; URL.createObjectURL(response.fileBlob);
+        const img &#x3D; new Image();
+        img.src &#x3D; url;
+        $(&#x27;#loadingfile&#x27;).hide();
+        $(&#x27;#editor&#x27;).empty().append(img);
+      })
+      .catch(function (error) {
+        console.error(error);
+        $(&#x27;#loadingfile&#x27;).hide();
+        $(&#x27;#editor&#x27;).empty().append(&#x27;Błąd ładowania obrazu. Spróbuj ponownie.&#x27;);
+      });
+  }
+
+  /** Wyciąga z adresu token za znakiem hash. */
+  // tslint:disable-next-line:use-life-cycle-interface
+  getHashValue(key) {
+    const matches &#x3D; location.hash.match(new RegExp(key + &#x27;&#x3D;([^&amp;]*)&#x27;));
+    return matches ? matches[1] : null;
+  }
+
+  /** Przenosi do folderu wstecz w eksploratorze plików. */
+  goUpList() {
+    this.folderPath &#x3D; this.folderPath.substring(0, this.folderPath.lastIndexOf(&#x27;/&#x27;));
+    (&lt;HTMLInputElement&gt;document.getElementById(&#x27;goUpList&#x27;)).disabled &#x3D; true;
+    this.downloadList(true);
+  }
+
+  /** Przenosi lub zmienia nazwę pliku wskazanego w argumencie. */
+  moveFile(path) {
+    const to_path &#x3D; prompt(&#x27;Wprowadź gdzie chcesz przenieść (lub zmienić nazwę) &#x27; + path, this.folderPath + &#x27;/&#x27; + path);
+    if (to_path &#x3D;&#x3D;&#x3D; null) { return; }
+    if (to_path !&#x3D;&#x3D; null || path !&#x3D;&#x3D; &#x27;&#x27;) {
+      path &#x3D; this.folderPath + &#x27;/&#x27; + path;
+      this.dbx.filesMove({
+        from_path: path,
+        to_path: to_path,
+        allow_shared_folder: true,
+        autorename: true,
+        allow_ownership_transfer: true
+      })
+        .then(() &#x3D;&gt; {
+          this.downloadList(true);
+        })
+        .catch(function (error) {
+          console.error(error);
+          alert(&#x27;Błąd przenoszenia / zmiany nazwy. Spróbuj ponownie.&#x27;);
+        });
+    }
+  }
+
+  /** Otwiera folder wskazany w argumencie, w eksploratorze plików. */
+  openFolder(path) {
+    if (path !&#x3D;&#x3D; &#x27;&#x27;) { this.folderPath &#x3D; this.folderPath + &#x27;/&#x27; + path; }
+    this.downloadList(true);
+  }
+
+  /** Otwiera panel ustawień. */
+  settings() {
+    const span &#x3D; (&lt;HTMLInputElement&gt;document.getElementsByClassName(&#x27;close&#x27;)[0]);
+    span.onclick &#x3D; () &#x3D;&gt; {
+      $(&#x27;#settings&#x27;).fadeOut();
+    };
+    $(&#x27;#settings&#x27;).fadeIn();
+  }
+
+  /** Zapisuje aktualnie edytowany plik. */
+  saveFile() {
+    const ext &#x3D; this.filePath.split(&#x27;.&#x27;).pop();
+    const lowerExt &#x3D; ext.toLowerCase();
+    if (!(lowerExt &#x3D;&#x3D;&#x3D; &#x27;png&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;jpg&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;jpeg&#x27; || lowerExt &#x3D;&#x3D;&#x3D; &#x27;svg&#x27;)) {
+      this.dbx.filesUpload({
+        path: this.filePath,
+        contents: this.editor.getSession().getValue(),
+        mode: { &#x27;.tag&#x27;: &#x27;overwrite&#x27; },
+        autorename: true,
+        mute: true,
+        strict_conflict: false
+      })
+        .catch(function (error) {
+          console.error(error);
+        });
+    }
+  }
+
+  /** Zapisuje konfigurację. */
+  saveConfig() {
+    if (this.config.configAutoSave &#x3D;&#x3D;&#x3D; true) {
+    this.dbx.filesUpload({
+      path: &#x27;/.skynotepad.json&#x27;,
+      contents: JSON.stringify(this.config),
+      mode: { &#x27;.tag&#x27;: &#x27;overwrite&#x27; },
+      autorename: true,
+      mute: true,
+      strict_conflict: false
+    })
+      .catch(function (error) {
+        console.error(error);
+      });
+    }
+  }
+
+  /** Wczytuje konfigurację. */
+  loadConfig() {
+    this.dbx.filesDownload({ path: &#x27;/.skynotepad.json&#x27; })
+      .then((response) &#x3D;&gt; {
+        const blob &#x3D; response.fileBlob;
+        const reader &#x3D; new FileReader();
+        this.showProperties(response);
+        reader.onloadend &#x3D; () &#x3D;&gt; {
+          const configContent &#x3D; String(reader.result);
+          this.config &#x3D; JSON.parse(configContent);
+          this.moveExplorer();
+          for (let i &#x3D; 0; i &lt; this.config.openFiles.length; i++) {
+            this.filePath &#x3D; this.config.openFiles[i];
+            this.downloadFile(this.config.openFiles[i].substring(1), false);
+          }
+          this.tabChanged(null);
+        };
+        reader.readAsText(blob);
+      })
+      .catch(function (error) {
+        console.error(error);
+        this.config &#x3D; this.defaultConfig;
+      });
+  }
+
+  /** Przywracja domyślne ustawienia konfiguracji. */
+  resetConfig() {
+    this.config &#x3D; {
+      wrapMode: true,
+      lastFiles: &#x27;&#x27;,
+      theme: this.themes[21],
+      font: &#x27;Consolas&#x27;,
+      fontSize: 20,
+      autoSave: true,
+      openFiles: [],
+      moveExplorer: false,
+      configAutoSave: true
+    };
+    this.moveExplorer();
+    this.updateFont(this.config.font);
+    this.updateFontSize(this.config.fontSize);
+    this.updateWrapMode(this.config.wrapMode);
+  }
+
+  /** Wylogowuje konto Dropbox i unieważnia token. */
+  logout() {
+    document.cookie &#x3D; &#x27;&#x27;;
+    window.location.href &#x3D; &#x27;https://www.dropbox.com/logout&#x27;;
+    this.dbx.authTokenRevoke(this.token);
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div id&#x3D;&quot;parent&quot;&gt;
+  &lt;div id&#x3D;&quot;code&quot;&gt;
+    &lt;mat-tab-group #tabGroup [selectedIndex]&#x3D;&quot;selected.value&quot;
+      (selectedTabChange)&#x3D;&quot;tabChanged($event)&quot; (selectedIndexChange)&#x3D;&quot;selected.setValue($event)&quot;&gt;
+      &lt;mat-tab *ngFor&#x3D;&quot;let tab of tabs; let index &#x3D; index&quot; [label]&#x3D;&quot;tab&quot;
+        (auxclick)&#x3D;&quot;removeTab(index)&quot;&gt;
+        &lt;ng-template mat-tab-label&gt;
+          &lt;p style&#x3D;&quot;float: left;&quot; title&#x3D;&quot;{{tab}}&quot;&gt;{{tab}}&lt;/p&gt;
+          &lt;p style&#x3D;&quot;float: right;&quot; class&#x3D;&quot;closeTab&quot;&gt;&lt;button mat-button (click)&#x3D;&quot;removeTab(index)&quot;
+              title&#x3D;&quot;Zamknij kartę&quot;&gt;X&lt;/button&gt;&lt;/p&gt;
+        &lt;/ng-template&gt;
+        &lt;mat-progress-bar id&#x3D;&quot;loadingfile&quot; mode&#x3D;&quot;indeterminate&quot;&gt;&lt;/mat-progress-bar&gt;
+        &lt;div id&#x3D;&quot;editor&quot;&gt;&lt;/div&gt;
+      &lt;/mat-tab&gt;
+    &lt;/mat-tab-group&gt;
+  &lt;/div&gt;
+  &lt;div id&#x3D;&quot;explorer&quot;&gt;
+    &lt;h2&gt;SKYNOTEPAD&lt;/h2&gt;
+    &lt;span id&#x3D;&quot;goUpList&quot; style&#x3D;&quot;text-align: center;&quot;&gt;
+      &lt;button mat-button title&#x3D;&quot;Ustawienia&quot; (click)&#x3D;&quot;settings()&quot;&gt;&lt;img class&#x3D;&quot;settings&quot;
+          src&#x3D;&quot;assets/wsettings.png&quot; style&#x3D;&quot;padding-bottom: 4px;&quot;&gt;&lt;/button&gt;
+      &lt;button mat-button title&#x3D;&quot;Utwórz plik&quot; (click)&#x3D;&quot;createFile()&quot;&gt;&lt;img class&#x3D;&quot;newfile&quot;
+          src&#x3D;&quot;assets/wnewfile.png&quot; style&#x3D;&quot;padding-bottom: 4px&quot;&gt;&lt;/button&gt;
+      &lt;button mat-button title&#x3D;&quot;Zapisz plik&quot; (click)&#x3D;&quot;saveFile()&quot;&gt;&lt;img class&#x3D;&quot;savefile&quot;
+          src&#x3D;&quot;assets/wsavefile.png&quot; style&#x3D;&quot;padding-bottom: 4px&quot;&gt;&lt;/button&gt;
+      &lt;button mat-button title&#x3D;&quot;Utwórz folder&quot; (click)&#x3D;&quot;createFolder()&quot;&gt;&lt;img
+          class&#x3D;&quot;newfolder&quot; src&#x3D;&quot;assets/wnewfolder.png&quot; style&#x3D;&quot;padding-bottom: 4px&quot;&gt;&lt;/button&gt;
+      &lt;button mat-button title&#x3D;&quot;Wstecz&quot; (click)&#x3D;&quot;goUpList()&quot;&gt;&lt;img class&#x3D;&quot;back&quot;
+          src&#x3D;&quot;assets/wback.png&quot; style&#x3D;&quot;padding-bottom: 4px&quot;&gt;&lt;/button&gt;
+    &lt;/span&gt;
+    &lt;h2&gt;LISTA PLIKÓW&lt;/h2&gt;
+    &lt;p style&#x3D;&quot;margin: 0px; color:#0062FF&quot;&gt;{{folderPath}}&lt;/p&gt;
+    &lt;div id&#x3D;&quot;list&quot;&gt;
+      &lt;ul style&#x3D;&quot;margin: 0px;&quot;&gt;
+        &lt;li class&#x3D;&quot;fileOrFolder&quot; *ngFor&#x3D;&quot;let fileOrFolder of foldersList&quot;&gt;
+          &lt;!-- &lt;input title&#x3D;&quot;Zaznacz folder: {{fileOrFolder}}&quot; type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;{{fileOrFolder}}&quot; value&#x3D;&quot;{{fileOrFolder}}&quot;&gt; --&gt;
+          &lt;button mat-button title&#x3D;&quot;Folder: {{folderPath}}/{{fileOrFolder}}&quot; id&#x3D;&quot;explorerItem&quot;
+            (click)&#x3D;&quot;openFolder(fileOrFolder)&quot; style&#x3D;&quot;color: #FFFF66; min-width:210px;  max-width:210px; text-align:left;&quot;&gt;
+            &lt;img class&#x3D;&quot;newfolder&quot; style&#x3D;&quot;height: 16px; margin-bottom:6px&quot; src&#x3D;&quot;assets/wnewfolder.png&quot;&gt;
+            {{fileOrFolder}}&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Pobierz folder: {{fileOrFolder}}&quot; (click)&#x3D;&quot;downloadFolder(fileOrFolder)&quot;&gt;↓&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Przenieś folder / zmień nazwę: {{fileOrFolder}}&quot;
+            (click)&#x3D;&quot;moveFile(fileOrFolder)&quot;&gt;↕&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Usuń folder: {{fileOrFolder}}&quot; (click)&#x3D;&quot;deleteFile(fileOrFolder)&quot;&gt;x&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul style&#x3D;&quot;margin: 0px&quot;&gt;
+        &lt;li class&#x3D;&quot;fileOrFolder&quot; *ngFor&#x3D;&quot;let fileOrFolder of filesList&quot;&gt;
+          &lt;!-- &lt;input title&#x3D;&quot;Zaznacz plik: {{fileOrFolder}}&quot; type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;{{fileOrFolder}}&quot; value&#x3D;&quot;{{fileOrFolder}}&quot;&gt; --&gt;
+          &lt;button mat-button title&#x3D;&quot;Plik: {{folderPath}}/{{fileOrFolder}}&quot; id&#x3D;&quot;explorerItem&quot;
+            (click)&#x3D;&quot;downloadFile(fileOrFolder, false)&quot; style&#x3D;&quot;min-width:210px; max-width:210px; text-align:left;&quot;&gt;
+            &lt;img class&#x3D;&quot;newfile&quot; style&#x3D;&quot;height: 16px; margin-bottom: 6px&quot; src&#x3D;&quot;assets/wnewfile.png&quot;&gt;
+            {{fileOrFolder}}&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Pobierz plik: {{fileOrFolder}}&quot; (click)&#x3D;&quot;downloadFile(fileOrFolder, true)&quot;&gt;↓&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Przenieś plik / zmień nazwę: {{fileOrFolder}}&quot;
+            (click)&#x3D;&quot;moveFile(fileOrFolder)&quot;&gt;↕&lt;/button&gt;
+          &lt;button mat-button title&#x3D;&quot;Usuń plik: {{fileOrFolder}}&quot; (click)&#x3D;&quot;deleteFile(fileOrFolder)&quot;&gt;x&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;mat-progress-bar id&#x3D;&quot;loadinglist&quot; mode&#x3D;&quot;indeterminate&quot;&gt;&lt;/mat-progress-bar&gt;
+    &lt;/div&gt;
+    &lt;h2 id&#x3D;&quot;propertiesTitle&quot; style&#x3D;&quot;display: none;&quot;&gt;WŁAŚCIWOŚCI PLIKU&lt;/h2&gt;
+    &lt;div id&#x3D;&quot;properties&quot; style&#x3D;&quot;display: none; font-family: &#x27;Consolas&#x27;, Courier, monospace;&quot;&gt;
+      Rozmiar: &lt;span id&#x3D;&quot;fileSize&quot;&gt;-&lt;/span&gt; Zmod.: &lt;span id&#x3D;&quot;fileMod&quot;&gt;-&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;h2&gt;STATUS&lt;/h2&gt;
+    &lt;div id&#x3D;&quot;stats&quot; style&#x3D;&quot;color:#ff6464; font-family: &#x27;Consolas&#x27;, Courier, monospace&quot;&gt;
+      Nie połączono z kontem Dropbox&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id&#x3D;&quot;auth&quot; class&#x3D;&quot;modal&quot;&gt;
+  &lt;div class&#x3D;&quot;modal-content&quot;&gt;
+    &lt;h1&gt;Skynotepad&lt;/h1&gt;
+    &lt;p&gt;Aplikacja wymaga zalogowania się do swojego konta Dropbox. Przycisk
+      przekierowuje do strony autoryzacjyjnej.
+      Wprowadź login i hasło, następnie wybierając przycisk &quot;Zezwól&quot; powrócisz
+      do tej aplikacji.&lt;/p&gt;
+      &lt;p&gt;Uwaga: strona przechowuje pliki cookies.&lt;/p&gt;
+    &lt;button mat-button class&#x3D;&quot;login&quot; (click)&#x3D;&quot;auth()&quot;&gt; &lt;img src&#x3D;&quot;assets/dropbox.png&quot;&gt;Zaloguj
+      się&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id&#x3D;&quot;settings&quot; class&#x3D;&quot;modal&quot; style&#x3D;&quot;text-align: left&quot;&gt;
+  &lt;div class&#x3D;&quot;modal-content&quot;&gt;
+    &lt;h1&gt;Ustawienia&lt;/h1&gt;
+    &lt;hr&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;div class&#x3D;&quot;column&quot;&gt;
+        &lt;h2&gt;KONTO&lt;/h2&gt;
+        &lt;p&gt;
+          &lt;button mat-button (click)&#x3D;&quot;logout()&quot;&gt;Wyloguj konto Dropbox&lt;/button&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;mat-slide-toggle [(ngModel)]&#x3D;&#x27;config.autoSave&#x27;&gt;Automatyczny zapis pliku&lt;/mat-slide-toggle&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;mat-slide-toggle [(ngModel)]&#x3D;&#x27;config.configAutoSave&#x27;&gt;Zapis sesji i ustawień w pliku&lt;/mat-slide-toggle&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;column&quot;&gt;
+        &lt;h2&gt;EDYTOR&lt;/h2&gt;
+        &lt;p&gt;
+          &lt;mat-slide-toggle [(ngModel)]&#x3D;&quot;config.moveExplorer&quot; (change)&#x3D;&quot;moveExplorer()&quot;&gt;Panel
+            po lewej&lt;/mat-slide-toggle&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;mat-slide-toggle [(ngModel)]&#x3D;&quot;config.wrapMode&quot; (change)&#x3D;&quot;updateWrapMode()&quot;&gt;Zawijanie
+            wierszy&lt;/mat-slide-toggle&gt;
+        &lt;/p&gt;
+        &lt;p style&#x3D;&quot; padding: 4px&quot;&gt;
+          &lt;mat-select placeholder&#x3D;&quot;Temat: {{config.theme}}&quot; [(value)]&#x3D;&quot;theme&quot;&gt;
+            &lt;mat-option *ngFor&#x3D;&quot;let theme of themes&quot; (onSelectionChange)&#x3D;&quot;updateTheme(theme); config.theme &#x3D; theme&quot;&gt;
+              Temat: {{theme}}
+            &lt;/mat-option&gt;
+          &lt;/mat-select&gt;
+        &lt;/p&gt;
+        &lt;p style&#x3D;&quot; padding: 4px&quot;&gt;
+          &lt;mat-select placeholder&#x3D;&quot;Rozmiar czcionki: {{config.fontSize}}px&quot;
+            [(value)]&#x3D;&quot;fontSize&quot;&gt;
+            &lt;mat-option *ngFor&#x3D;&quot;let fontSize of fontSizes&quot; (onSelectionChange)&#x3D;&quot;updateFontSize(fontSize); config.fontSize &#x3D; fontSize&quot;&gt;
+              Rozmiar czcionki: {{fontSize}}px
+            &lt;/mat-option&gt;
+          &lt;/mat-select&gt;
+          &lt;p style&#x3D;&quot; padding: 4px&quot;&gt;
+            &lt;mat-select placeholder&#x3D;&quot;Czcionka: {{config.font}}&quot; [(value)]&#x3D;&quot;font&quot;&gt;
+              &lt;mat-option *ngFor&#x3D;&quot;let font of fonts&quot; (onSelectionChange)&#x3D;&quot;updateFont(font); config.font &#x3D; font&quot;&gt;
+                Czcionka: {{font}}
+              &lt;/mat-option&gt;
+            &lt;/mat-select&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;row&quot; style&#x3D;&quot;text-align:center&quot;&gt;
+      &lt;button mat-button class&#x3D;&quot;login&quot; (click)&#x3D;&quot;resetConfig()&quot;&gt;Przywróć
+        domyślne&lt;/button&gt;
+      &lt;button mat-button class&#x3D;&quot;close&quot; (click)&#x3D;&quot;saveConfig()&quot;&gt;Zamknij&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./app.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">#parent {
+  position: absolute;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+
+#explorer {
+  color: white;
+  position: relative;
+  float: left;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  overflow: auto;
+  flex: 0 0 320px;
+  border-left: 3px solid #404655;
+  border-right: 3px solid #404655;
+  min-width: 200px;
+}
+
+#list {
+  flex: 2;
+  overflow-x: hidden;
+  text-align: center;
+  overflow-y:scroll;
+}
+
+#code {
+  position: relative;
+  float: left;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  overflow: auto;
+  text-align: center;
+}
+
+#editor {
+  font-family: &quot;Consolas&quot;, &quot;Ubuntu mono&quot;, &quot;Monaco&quot;, &quot;Menlo&quot;, &quot;Lucida Console&quot;, monospace;
+  font-size: 17px;
+  height: 400px;
+  flex: 2;
+}
+
+#title {
+  color: white;
+  height: 48px;
+  background-color: #444b5a;
+  line-height: 48px;
+}
+
+#tabs {
+  text-align: center;
+  height: 48px;
+  font-size: 20px;
+  line-height: 48px;
+}
+
+#stats {
+  overflow: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: -6px;
+  padding-bottom: 6px;
+  max-height: 300px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #00000090;
+  color: white;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #282D35;
+  margin: auto;
+  padding: 8px;
+  width: 640px;
+  border-radius: 4px;
+  color: white;
+  min-width: 400px;
+}
+
+.close:hover, .close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login, .close {
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid #444b5a;
+  margin-right: 8px;
+}
+
+.fileOrFolder {
+  border-bottom: solid 1px #444b5a;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: &quot;&quot;;
+  display: table;
+  clear: both;
+}
+
+.closeTab {
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0px auto;
+  margin-left: 8px;
+}
+
+#finder {
+  background-color: #404655;
+  min-height: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+
+#explorerItem {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 124px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div id="parent">  <div id="code">    <mat-tab-group #tabGroup [selectedIndex]="selected.value"      (selectedTabChange)="tabChanged($event)" (selectedIndexChange)="selected.setValue($event)">      <mat-tab *ngFor="let tab of tabs; let index = index" [label]="tab"        (auxclick)="removeTab(index)">        <ng-template mat-tab-label>          <p style="float: left;" title="{{tab}}">{{tab}}</p>          <p style="float: right;" class="closeTab"><button mat-button (click)="removeTab(index)"              title="Zamknij kartę">X</button></p>        </ng-template>        <mat-progress-bar id="loadingfile" mode="indeterminate"></mat-progress-bar>        <div id="editor"></div>      </mat-tab>    </mat-tab-group>  </div>  <div id="explorer">    <h2>SKYNOTEPAD</h2>    <span id="goUpList" style="text-align: center;">      <button mat-button title="Ustawienia" (click)="settings()"><img class="settings"          src="assets/wsettings.png" style="padding-bottom: 4px;"></button>      <button mat-button title="Utwórz plik" (click)="createFile()"><img class="newfile"          src="assets/wnewfile.png" style="padding-bottom: 4px"></button>      <button mat-button title="Zapisz plik" (click)="saveFile()"><img class="savefile"          src="assets/wsavefile.png" style="padding-bottom: 4px"></button>      <button mat-button title="Utwórz folder" (click)="createFolder()"><img          class="newfolder" src="assets/wnewfolder.png" style="padding-bottom: 4px"></button>      <button mat-button title="Wstecz" (click)="goUpList()"><img class="back"          src="assets/wback.png" style="padding-bottom: 4px"></button>    </span>    <h2>LISTA PLIKÓW</h2>    <p style="margin: 0px; color:#0062FF">{{folderPath}}</p>    <div id="list">      <ul style="margin: 0px;">        <li class="fileOrFolder" *ngFor="let fileOrFolder of foldersList">          <!-- <input title="Zaznacz folder: {{fileOrFolder}}" type="checkbox" name="{{fileOrFolder}}" value="{{fileOrFolder}}"> -->          <button mat-button title="Folder: {{folderPath}}/{{fileOrFolder}}" id="explorerItem"            (click)="openFolder(fileOrFolder)" style="color: #FFFF66; min-width:210px;  max-width:210px; text-align:left;">            <img class="newfolder" style="height: 16px; margin-bottom:6px" src="assets/wnewfolder.png">            {{fileOrFolder}}</button>          <button mat-button title="Pobierz folder: {{fileOrFolder}}" (click)="downloadFolder(fileOrFolder)">↓</button>          <button mat-button title="Przenieś folder / zmień nazwę: {{fileOrFolder}}"            (click)="moveFile(fileOrFolder)">↕</button>          <button mat-button title="Usuń folder: {{fileOrFolder}}" (click)="deleteFile(fileOrFolder)">x</button>        </li>      </ul>      <ul style="margin: 0px">        <li class="fileOrFolder" *ngFor="let fileOrFolder of filesList">          <!-- <input title="Zaznacz plik: {{fileOrFolder}}" type="checkbox" name="{{fileOrFolder}}" value="{{fileOrFolder}}"> -->          <button mat-button title="Plik: {{folderPath}}/{{fileOrFolder}}" id="explorerItem"            (click)="downloadFile(fileOrFolder, false)" style="min-width:210px; max-width:210px; text-align:left;">            <img class="newfile" style="height: 16px; margin-bottom: 6px" src="assets/wnewfile.png">            {{fileOrFolder}}</button>          <button mat-button title="Pobierz plik: {{fileOrFolder}}" (click)="downloadFile(fileOrFolder, true)">↓</button>          <button mat-button title="Przenieś plik / zmień nazwę: {{fileOrFolder}}"            (click)="moveFile(fileOrFolder)">↕</button>          <button mat-button title="Usuń plik: {{fileOrFolder}}" (click)="deleteFile(fileOrFolder)">x</button>        </li>      </ul>      <mat-progress-bar id="loadinglist" mode="indeterminate"></mat-progress-bar>    </div>    <h2 id="propertiesTitle" style="display: none;">WŁAŚCIWOŚCI PLIKU</h2>    <div id="properties" style="display: none; font-family: \'Consolas\', Courier, monospace;">      Rozmiar: <span id="fileSize">-</span> Zmod.: <span id="fileMod">-</span>    </div>    <h2>STATUS</h2>    <div id="stats" style="color:#ff6464; font-family: \'Consolas\', Courier, monospace">      Nie połączono z kontem Dropbox</div>  </div></div><div id="auth" class="modal">  <div class="modal-content">    <h1>Skynotepad</h1>    <p>Aplikacja wymaga zalogowania się do swojego konta Dropbox. Przycisk      przekierowuje do strony autoryzacjyjnej.      Wprowadź login i hasło, następnie wybierając przycisk "Zezwól" powrócisz      do tej aplikacji.</p>      <p>Uwaga: strona przechowuje pliki cookies.</p>    <button mat-button class="login" (click)="auth()"> <img src="assets/dropbox.png">Zaloguj      się</button>  </div></div><div id="settings" class="modal" style="text-align: left">  <div class="modal-content">    <h1>Ustawienia</h1>    <hr>    <div class="row">      <div class="column">        <h2>KONTO</h2>        <p>          <button mat-button (click)="logout()">Wyloguj konto Dropbox</button>        </p>        <p>          <mat-slide-toggle [(ngModel)]=\'config.autoSave\'>Automatyczny zapis pliku</mat-slide-toggle>        </p>        <p>          <mat-slide-toggle [(ngModel)]=\'config.configAutoSave\'>Zapis sesji i ustawień w pliku</mat-slide-toggle>        </p>      </div>      <div class="column">        <h2>EDYTOR</h2>        <p>          <mat-slide-toggle [(ngModel)]="config.moveExplorer" (change)="moveExplorer()">Panel            po lewej</mat-slide-toggle>        </p>        <p>          <mat-slide-toggle [(ngModel)]="config.wrapMode" (change)="updateWrapMode()">Zawijanie            wierszy</mat-slide-toggle>        </p>        <p style=" padding: 4px">          <mat-select placeholder="Temat: {{config.theme}}" [(value)]="theme">            <mat-option *ngFor="let theme of themes" (onSelectionChange)="updateTheme(theme); config.theme = theme">              Temat: {{theme}}            </mat-option>          </mat-select>        </p>        <p style=" padding: 4px">          <mat-select placeholder="Rozmiar czcionki: {{config.fontSize}}px"            [(value)]="fontSize">            <mat-option *ngFor="let fontSize of fontSizes" (onSelectionChange)="updateFontSize(fontSize); config.fontSize = fontSize">              Rozmiar czcionki: {{fontSize}}px            </mat-option>          </mat-select>          <p style=" padding: 4px">            <mat-select placeholder="Czcionka: {{config.font}}" [(value)]="font">              <mat-option *ngFor="let font of fonts" (onSelectionChange)="updateFont(font); config.font = font">                Czcionka: {{font}}              </mat-option>            </mat-select>          </p>      </div>    </div>    <div class="row" style="text-align:center">      <button mat-button class="login" (click)="resetConfig()">Przywróć        domyślne</button>      <button mat-button class="close" (click)="saveConfig()">Zamknij</button>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AppComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,139 @@
+<div id="parent">
+  <div id="code">
+    <mat-tab-group #tabGroup [selectedIndex]="selected.value"
+      (selectedTabChange)="tabChanged($event)" (selectedIndexChange)="selected.setValue($event)">
+      <mat-tab *ngFor="let tab of tabs; let index = index" [label]="tab"
+        (auxclick)="removeTab(index)">
+        <ng-template mat-tab-label>
+          <p style="float: left;" title="{{tab}}">{{tab}}</p>
+          <p style="float: right;" class="closeTab"><button mat-button (click)="removeTab(index)"
+              title="Zamknij kartę">X</button></p>
+        </ng-template>
+        <mat-progress-bar id="loadingfile" mode="indeterminate"></mat-progress-bar>
+        <div id="editor"></div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+  <div id="explorer">
+    <h2>SKYNOTEPAD</h2>
+    <span id="goUpList" style="text-align: center;">
+      <button mat-button title="Ustawienia" (click)="settings()"><img class="settings"
+          src="assets/wsettings.png" style="padding-bottom: 4px;"></button>
+      <button mat-button title="Utwórz plik" (click)="createFile()"><img class="newfile"
+          src="assets/wnewfile.png" style="padding-bottom: 4px"></button>
+      <button mat-button title="Zapisz plik" (click)="saveFile()"><img class="savefile"
+          src="assets/wsavefile.png" style="padding-bottom: 4px"></button>
+      <button mat-button title="Utwórz folder" (click)="createFolder()"><img
+          class="newfolder" src="assets/wnewfolder.png" style="padding-bottom: 4px"></button>
+      <button mat-button title="Wstecz" (click)="goUpList()"><img class="back"
+          src="assets/wback.png" style="padding-bottom: 4px"></button>
+    </span>
+    <h2>LISTA PLIKÓW</h2>
+    <p style="margin: 0px; color:#0062FF">{{folderPath}}</p>
+    <div id="list">
+      <ul style="margin: 0px;">
+        <li class="fileOrFolder" *ngFor="let fileOrFolder of foldersList">
+          <!-- <input title="Zaznacz folder: {{fileOrFolder}}" type="checkbox" name="{{fileOrFolder}}" value="{{fileOrFolder}}"> -->
+          <button mat-button title="Folder: {{folderPath}}/{{fileOrFolder}}" id="explorerItem"
+            (click)="openFolder(fileOrFolder)" style="color: #FFFF66; min-width:210px;  max-width:210px; text-align:left;">
+            <img class="newfolder" style="height: 16px; margin-bottom:6px" src="assets/wnewfolder.png">
+            {{fileOrFolder}}</button>
+          <button mat-button title="Pobierz folder: {{fileOrFolder}}" (click)="downloadFolder(fileOrFolder)">↓</button>
+          <button mat-button title="Przenieś folder / zmień nazwę: {{fileOrFolder}}"
+            (click)="moveFile(fileOrFolder)">↕</button>
+          <button mat-button title="Usuń folder: {{fileOrFolder}}" (click)="deleteFile(fileOrFolder)">x</button>
+        </li>
+      </ul>
+      <ul style="margin: 0px">
+        <li class="fileOrFolder" *ngFor="let fileOrFolder of filesList">
+          <!-- <input title="Zaznacz plik: {{fileOrFolder}}" type="checkbox" name="{{fileOrFolder}}" value="{{fileOrFolder}}"> -->
+          <button mat-button title="Plik: {{folderPath}}/{{fileOrFolder}}" id="explorerItem"
+            (click)="downloadFile(fileOrFolder, false)" style="min-width:210px; max-width:210px; text-align:left;">
+            <img class="newfile" style="height: 16px; margin-bottom: 6px" src="assets/wnewfile.png">
+            {{fileOrFolder}}</button>
+          <button mat-button title="Pobierz plik: {{fileOrFolder}}" (click)="downloadFile(fileOrFolder, true)">↓</button>
+          <button mat-button title="Przenieś plik / zmień nazwę: {{fileOrFolder}}"
+            (click)="moveFile(fileOrFolder)">↕</button>
+          <button mat-button title="Usuń plik: {{fileOrFolder}}" (click)="deleteFile(fileOrFolder)">x</button>
+        </li>
+      </ul>
+      <mat-progress-bar id="loadinglist" mode="indeterminate"></mat-progress-bar>
+    </div>
+    <h2 id="propertiesTitle" style="display: none;">WŁAŚCIWOŚCI PLIKU</h2>
+    <div id="properties" style="display: none; font-family: 'Consolas', Courier, monospace;">
+      Rozmiar: <span id="fileSize">-</span> Zmod.: <span id="fileMod">-</span>
+    </div>
+    <h2>STATUS</h2>
+    <div id="stats" style="color:#ff6464; font-family: 'Consolas', Courier, monospace">
+      Nie połączono z kontem Dropbox</div>
+  </div>
+</div>
+<div id="auth" class="modal">
+  <div class="modal-content">
+    <h1>Skynotepad</h1>
+    <p>Aplikacja wymaga zalogowania się do swojego konta Dropbox. Przycisk
+      przekierowuje do strony autoryzacjyjnej.
+      Wprowadź login i hasło, następnie wybierając przycisk "Zezwól" powrócisz
+      do tej aplikacji.</p>
+      <p>Uwaga: strona przechowuje pliki cookies.</p>
+    <button mat-button class="login" (click)="auth()"> <img src="assets/dropbox.png">Zaloguj
+      się</button>
+  </div>
+</div>
+<div id="settings" class="modal" style="text-align: left">
+  <div class="modal-content">
+    <h1>Ustawienia</h1>
+    <hr>
+    <div class="row">
+      <div class="column">
+        <h2>KONTO</h2>
+        <p>
+          <button mat-button (click)="logout()">Wyloguj konto Dropbox</button>
+        </p>
+        <p>
+          <mat-slide-toggle [(ngModel)]='config.autoSave'>Automatyczny zapis pliku</mat-slide-toggle>
+        </p>
+        <p>
+          <mat-slide-toggle [(ngModel)]='config.configAutoSave'>Zapis sesji i ustawień w pliku</mat-slide-toggle>
+        </p>
+      </div>
+      <div class="column">
+        <h2>EDYTOR</h2>
+        <p>
+          <mat-slide-toggle [(ngModel)]="config.moveExplorer" (change)="moveExplorer()">Panel
+            po lewej</mat-slide-toggle>
+        </p>
+        <p>
+          <mat-slide-toggle [(ngModel)]="config.wrapMode" (change)="updateWrapMode()">Zawijanie
+            wierszy</mat-slide-toggle>
+        </p>
+        <p style=" padding: 4px">
+          <mat-select placeholder="Temat: {{config.theme}}" [(value)]="theme">
+            <mat-option *ngFor="let theme of themes" (onSelectionChange)="updateTheme(theme); config.theme = theme">
+              Temat: {{theme}}
+            </mat-option>
+          </mat-select>
+        </p>
+        <p style=" padding: 4px">
+          <mat-select placeholder="Rozmiar czcionki: {{config.fontSize}}px"
+            [(value)]="fontSize">
+            <mat-option *ngFor="let fontSize of fontSizes" (onSelectionChange)="updateFontSize(fontSize); config.fontSize = fontSize">
+              Rozmiar czcionki: {{fontSize}}px
+            </mat-option>
+          </mat-select>
+          <p style=" padding: 4px">
+            <mat-select placeholder="Czcionka: {{config.font}}" [(value)]="font">
+              <mat-option *ngFor="let font of fonts" (onSelectionChange)="updateFont(font); config.font = font">
+                Czcionka: {{font}}
+              </mat-option>
+            </mat-select>
+          </p>
+      </div>
+    </div>
+    <div class="row" style="text-align:center">
+      <button mat-button class="login" (click)="resetConfig()">Przywróć
+        domyślne</button>
+      <button mat-button class="close" (click)="saveConfig()">Zamknij</button>
+    </div>
+  </div>
+</div>
