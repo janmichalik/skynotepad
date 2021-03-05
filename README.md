@@ -1,5 +1,6 @@
 # skynotepad
-Source code editor for Dropbox cloud storage.
+Source code editor for Dropbox cloud storage. The application uses the Dropbox API v2. 
+
 ![screenshot](https://user-images.githubusercontent.com/28429672/109955854-3dbaba00-7ce3-11eb-8fdb-de6546a030bc.png)
  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
